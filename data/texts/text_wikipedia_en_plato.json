@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "text/wikipedia_en_plato",
+  "type": "text",
+  "version": "§272",
+  "status": "draft",
+  "meta": {
+    "names": {
+      "en": "Plato",
+      "fr": "Platon",
+      "de": "Platon",
+      "es": "Platón"
+    },
+    "scope": "public",
+    "provenance": {
+      "source_url": "https://en.wikipedia.org/wiki/Plato",
+      "wikipedia_id": 22954,
+      "lang": "en",
+      "availability": "open_access",
+      "license": "CC-BY-SA"
+    },
+    "notes": "Greek philosopher"
+  },
+  "semantic": {
+    "mode": "distributed",
+    "atom_version": "V17",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ],
+    "freq_signature": {
+      "ÊTRE": 0.0,
+      "DIFFÉRENCE": 0.0,
+      "RAPPORT": 0.0,
+      "ORIENTATION": 0.0,
+      "SUJET": 0.25,
+      "TEMPS": 0.0,
+      "MODALITÉ": 0.25,
+      "NOMBRE": 0.25,
+      "ESPACE": 0.25,
+      "OPÉRATION": 0.0,
+      "FONCTION": 0.0,
+      "STRUCTURE": 0.0,
+      "SYMÉTRIE": 0.0,
+      "ÉQUATION": 0.0,
+      "CAUSALITÉ": 0.0,
+      "ÉVÉNEMENT": 0.0,
+      "MENTAL_STATE": 0.0
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "text/wikipedia_en_socrates",
+  "type": "text",
+  "version": "§272",
+  "status": "draft",
+  "meta": {
+    "names": {
+      "en": "Socrates",
+      "fr": "Socrate",
+      "de": "Sokrates",
+      "es": "Sócrates"
+    },
+    "scope": "public",
+    "provenance": {
+      "source_url": "https://en.wikipedia.org/wiki/Socrates",
+      "wikipedia_id": 25664190,
+      "lang": "en",
+      "availability": "open_access",
+      "license": "CC-BY-SA"
+    },
+    "notes": "Greek philosopher (c. 470–399 BC)"
+  },
+  "semantic": {
+    "mode": "distributed",
+    "atom_version": "V17",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ],
+    "freq_signature": {
+      "ÊTRE": 0.0,
+      "DIFFÉRENCE": 0.0,
+      "RAPPORT": 0.0769,
+      "ORIENTATION": 0.2308,
+      "SUJET": 0.1538,
+      "TEMPS": 0.1538,
+      "MODALITÉ": 0.0769,
+      "NOMBRE": 0.0769,
+      "ESPACE": 0.0,
+      "OPÉRATION": 0.0769,
+      "FONCTION": 0.0,
+      "STRUCTURE": 0.0,
+      "SYMÉTRIE": 0.0,
+      "ÉQUATION": 0.0,
+      "CAUSALITÉ": 0.0,
+      "ÉVÉNEMENT": 0.1538,
+      "MENTAL_STATE": 0.0
+    }
+  }
+}

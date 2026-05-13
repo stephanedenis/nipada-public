@@ -1,0 +1,65 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "text/wikipedia_en_stoicism",
+  "type": "text",
+  "version": "§272",
+  "status": "draft",
+  "meta": {
+    "names": {
+      "en": "Stoicism",
+      "fr": "Stoïcisme",
+      "de": "Stoa"
+    },
+    "scope": "public",
+    "provenance": {
+      "source_url": "https://en.wikipedia.org/wiki/Stoicism",
+      "wikipedia_id": 19224834,
+      "lang": "en",
+      "availability": "open_access",
+      "license": "CC-BY-SA"
+    },
+    "notes": "Ancient philosophy"
+  },
+  "semantic": {
+    "mode": "distributed",
+    "atom_version": "V17",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ],
+    "freq_signature": {
+      "ÊTRE": 0.0,
+      "DIFFÉRENCE": 0.0,
+      "RAPPORT": 0.0,
+      "ORIENTATION": 0.3,
+      "SUJET": 0.1,
+      "TEMPS": 0.2,
+      "MODALITÉ": 0.1,
+      "NOMBRE": 0.1,
+      "ESPACE": 0.1,
+      "OPÉRATION": 0.0,
+      "FONCTION": 0.0,
+      "STRUCTURE": 0.0,
+      "SYMÉTRIE": 0.0,
+      "ÉQUATION": 0.0,
+      "CAUSALITÉ": 0.1,
+      "ÉVÉNEMENT": 0.0,
+      "MENTAL_STATE": 0.0
+    }
+  }
+}

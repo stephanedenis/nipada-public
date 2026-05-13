@@ -1,0 +1,65 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "text/wikipedia_en_immanuel_kant",
+  "type": "text",
+  "version": "§272",
+  "status": "draft",
+  "meta": {
+    "names": {
+      "en": "Immanuel Kant",
+      "fr": "Emmanuel Kant",
+      "de": "Immanuel Kant"
+    },
+    "scope": "public",
+    "provenance": {
+      "source_url": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+      "wikipedia_id": 14631,
+      "lang": "en",
+      "availability": "open_access",
+      "license": "CC-BY-SA"
+    },
+    "notes": "German philosopher (1724–1804)"
+  },
+  "semantic": {
+    "mode": "distributed",
+    "atom_version": "V17",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ],
+    "freq_signature": {
+      "ÊTRE": 0.0,
+      "DIFFÉRENCE": 0.0,
+      "RAPPORT": 0.0,
+      "ORIENTATION": 0.0,
+      "SUJET": 0.0,
+      "TEMPS": 0.0,
+      "MODALITÉ": 0.0,
+      "NOMBRE": 0.6667,
+      "ESPACE": 0.0,
+      "OPÉRATION": 0.0,
+      "FONCTION": 0.0,
+      "STRUCTURE": 0.0,
+      "SYMÉTRIE": 0.0,
+      "ÉQUATION": 0.3333,
+      "CAUSALITÉ": 0.0,
+      "ÉVÉNEMENT": 0.0,
+      "MENTAL_STATE": 0.0
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "nipada_id": "texts/goethe_en_14591",
+  "type": "text",
+  "mode": "distributed",
+  "semantic": {
+    "freq_signature": {
+      "ÊTRE": 0.0588,
+      "DIFFÉRENCE": 0.0588,
+      "RAPPORT": 0.0588,
+      "ORIENTATION": 0.0588,
+      "SUJET": 0.0588,
+      "TEMPS": 0.0588,
+      "MODALITÉ": 0.0588,
+      "NOMBRE": 0.0588,
+      "ESPACE": 0.0588,
+      "OPÉRATION": 0.0588,
+      "FONCTION": 0.0588,
+      "STRUCTURE": 0.0588,
+      "SYMÉTRIE": 0.0588,
+      "ÉQUATION": 0.0588,
+      "CAUSALITÉ": 0.0588,
+      "ÉVÉNEMENT": 0.0588,
+      "MENTAL_STATE": 0.0588
+    },
+    "atom_version": "§272",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ]
+  },
+  "meta": {
+    "names": {
+      "en": "Faust [part 1]. Translated Into English in the Original Metres"
+    },
+    "scope": "public",
+    "provenance": {
+      "source": "gutenberg",
+      "gutenberg_id": 14591,
+      "language": "en",
+      "authors": "Goethe, Johann Wolfgang von, 1749-1832; Clarke, Harry, 1889-1931 [Illustrator]; Taylor, Bayard, 1825-1878 [Translator]",
+      "group": "goethe",
+      "group_languages": [
+        "de",
+        "en",
+        "es",
+        "fi",
+        "fr",
+        "nl"
+      ],
+      "url": "https://www.gutenberg.org/ebooks/14591",
+      "fetched_at": "2026-05-13T20:11:59Z",
+      "stub": true
+    }
+  }
+}

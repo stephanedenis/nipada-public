@@ -1,0 +1,70 @@
+{
+  "nipada_id": "texts/goethe_en_45806",
+  "type": "text",
+  "mode": "distributed",
+  "semantic": {
+    "freq_signature": {
+      "ÊTRE": 0.0588,
+      "DIFFÉRENCE": 0.0588,
+      "RAPPORT": 0.0588,
+      "ORIENTATION": 0.0588,
+      "SUJET": 0.0588,
+      "TEMPS": 0.0588,
+      "MODALITÉ": 0.0588,
+      "NOMBRE": 0.0588,
+      "ESPACE": 0.0588,
+      "OPÉRATION": 0.0588,
+      "FONCTION": 0.0588,
+      "STRUCTURE": 0.0588,
+      "SYMÉTRIE": 0.0588,
+      "ÉQUATION": 0.0588,
+      "CAUSALITÉ": 0.0588,
+      "ÉVÉNEMENT": 0.0588,
+      "MENTAL_STATE": 0.0588
+    },
+    "atom_version": "§272",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ]
+  },
+  "meta": {
+    "names": {
+      "en": "Faust: A Lyric Drama in Five Acts"
+    },
+    "scope": "public",
+    "provenance": {
+      "source": "gutenberg",
+      "gutenberg_id": 45806,
+      "language": "en",
+      "authors": "Gounod, Charles, 1818-1893; Barbier, Jules, 1825-1901; Carré, Michel, 1819-1872; Goethe, Johann Wolfgang von, 1749-1832 [Contributor]",
+      "group": "goethe",
+      "group_languages": [
+        "de",
+        "en",
+        "es",
+        "fi",
+        "fr",
+        "nl"
+      ],
+      "url": "https://www.gutenberg.org/ebooks/45806",
+      "fetched_at": "2026-05-13T20:11:59Z",
+      "stub": true
+    }
+  }
+}

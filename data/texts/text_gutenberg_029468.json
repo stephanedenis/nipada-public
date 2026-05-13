@@ -1,0 +1,70 @@
+{
+  "nipada_id": "texts/cervantes_en_29468",
+  "type": "text",
+  "mode": "distributed",
+  "semantic": {
+    "freq_signature": {
+      "ÊTRE": 0.0588,
+      "DIFFÉRENCE": 0.0588,
+      "RAPPORT": 0.0588,
+      "ORIENTATION": 0.0588,
+      "SUJET": 0.0588,
+      "TEMPS": 0.0588,
+      "MODALITÉ": 0.0588,
+      "NOMBRE": 0.0588,
+      "ESPACE": 0.0588,
+      "OPÉRATION": 0.0588,
+      "FONCTION": 0.0588,
+      "STRUCTURE": 0.0588,
+      "SYMÉTRIE": 0.0588,
+      "ÉQUATION": 0.0588,
+      "CAUSALITÉ": 0.0588,
+      "ÉVÉNEMENT": 0.0588,
+      "MENTAL_STATE": 0.0588
+    },
+    "atom_version": "§272",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ]
+  },
+  "meta": {
+    "names": {
+      "en": "The Story of Don Quixote"
+    },
+    "scope": "public",
+    "provenance": {
+      "source": "gutenberg",
+      "gutenberg_id": 29468,
+      "language": "en",
+      "authors": "Paulson, Arvid; Cervantes Saavedra, Miguel de, 1547-1616; Edwards, Clayton (Author of A treasury of heroes and heroines); Choate, Florence, 1878-1967 [Illustrator]; Curtis, Elizabeth, 1873-1946 [Illustrator]",
+      "group": "cervantes",
+      "group_languages": [
+        "de",
+        "en",
+        "es",
+        "fi",
+        "fr",
+        "hu"
+      ],
+      "url": "https://www.gutenberg.org/ebooks/29468",
+      "fetched_at": "2026-05-13T20:11:59Z",
+      "stub": true
+    }
+  }
+}

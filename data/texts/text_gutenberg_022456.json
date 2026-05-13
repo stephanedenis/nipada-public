@@ -1,0 +1,67 @@
+{
+  "nipada_id": "texts/virgil_en_22456",
+  "type": "text",
+  "mode": "distributed",
+  "semantic": {
+    "freq_signature": {
+      "ÊTRE": 0.0588,
+      "DIFFÉRENCE": 0.0588,
+      "RAPPORT": 0.0588,
+      "ORIENTATION": 0.0588,
+      "SUJET": 0.0588,
+      "TEMPS": 0.0588,
+      "MODALITÉ": 0.0588,
+      "NOMBRE": 0.0588,
+      "ESPACE": 0.0588,
+      "OPÉRATION": 0.0588,
+      "FONCTION": 0.0588,
+      "STRUCTURE": 0.0588,
+      "SYMÉTRIE": 0.0588,
+      "ÉQUATION": 0.0588,
+      "CAUSALITÉ": 0.0588,
+      "ÉVÉNEMENT": 0.0588,
+      "MENTAL_STATE": 0.0588
+    },
+    "atom_version": "§272",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ]
+  },
+  "meta": {
+    "names": {
+      "en": "The Aeneid of Virgil"
+    },
+    "scope": "public",
+    "provenance": {
+      "source": "gutenberg",
+      "gutenberg_id": 22456,
+      "language": "en",
+      "authors": "Virgil, 71 BCE-20 BCE; Mackail, J. W. (John William), 1859-1945 [Translator]",
+      "group": "virgil",
+      "group_languages": [
+        "en",
+        "fi",
+        "la"
+      ],
+      "url": "https://www.gutenberg.org/ebooks/22456",
+      "fetched_at": "2026-05-13T20:11:59Z",
+      "stub": true
+    }
+  }
+}
