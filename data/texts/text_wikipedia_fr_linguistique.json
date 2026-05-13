@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "text/wikipedia_fr_linguistique",
+  "type": "text",
+  "version": "§272",
+  "status": "draft",
+  "meta": {
+    "names": {
+      "fr": "Linguistique",
+      "en": "Linguistics",
+      "de": "Linguistik",
+      "es": "Lingüística"
+    },
+    "scope": "public",
+    "provenance": {
+      "source_url": "https://fr.wikipedia.org/wiki/Linguistique",
+      "wikipedia_id": 1750,
+      "lang": "fr",
+      "availability": "open_access",
+      "license": "CC-BY-SA"
+    },
+    "notes": "science du langage, étude des langues comparées"
+  },
+  "semantic": {
+    "mode": "distributed",
+    "atom_version": "V17",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ],
+    "freq_signature": {
+      "ÊTRE": 0.3333,
+      "DIFFÉRENCE": 0.0,
+      "RAPPORT": 0.0,
+      "ORIENTATION": 0.0,
+      "SUJET": 0.0,
+      "TEMPS": 0.0,
+      "MODALITÉ": 0.0,
+      "NOMBRE": 0.0,
+      "ESPACE": 0.0,
+      "OPÉRATION": 0.0,
+      "FONCTION": 0.0,
+      "STRUCTURE": 0.0,
+      "SYMÉTRIE": 0.3333,
+      "ÉQUATION": 0.3333,
+      "CAUSALITÉ": 0.0,
+      "ÉVÉNEMENT": 0.0,
+      "MENTAL_STATE": 0.0
+    }
+  }
+}

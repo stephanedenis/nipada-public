@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T20:11:59Z",
+  "generated_at": "2026-05-13T20:46:57Z",
   "atom_version": "§272",
   "ranking": [
     {
@@ -45,77 +45,6 @@
         "nl"
       ],
       "n_editions": 12
-    },
-    {
-      "group": "tolstoy",
-      "n_languages": 5,
-      "languages": [
-        "de",
-        "en",
-        "fi",
-        "fr",
-        "nl"
-      ],
-      "n_editions": 12
-    },
-    {
-      "group": "hugo",
-      "n_languages": 4,
-      "languages": [
-        "en",
-        "es",
-        "fi",
-        "fr"
-      ],
-      "n_editions": 18
-    },
-    {
-      "group": "virgil",
-      "n_languages": 3,
-      "languages": [
-        "en",
-        "fi",
-        "la"
-      ],
-      "n_editions": 6
-    },
-    {
-      "group": "dante",
-      "n_languages": 3,
-      "languages": [
-        "en",
-        "fur",
-        "it"
-      ],
-      "n_editions": 44
-    },
-    {
-      "group": "voltaire",
-      "n_languages": 3,
-      "languages": [
-        "en",
-        "fi",
-        "fr"
-      ],
-      "n_editions": 4
-    },
-    {
-      "group": "descartes",
-      "n_languages": 2,
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "n_editions": 4
-    },
-    {
-      "group": "spinoza",
-      "n_languages": 2,
-      "languages": [
-        "en",
-        "nl"
-      ],
-      "n_editions": 7
     }
   ]
 }

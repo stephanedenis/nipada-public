@@ -1,0 +1,64 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "text/wikipedia_en_morphology_linguistics",
+  "type": "text",
+  "version": "§272",
+  "status": "draft",
+  "meta": {
+    "names": {
+      "en": "Morphology (linguistics)",
+      "fr": "Morphologie (linguistique)"
+    },
+    "scope": "public",
+    "provenance": {
+      "source_url": "https://en.wikipedia.org/wiki/Morphology_(linguistics)",
+      "wikipedia_id": 20646,
+      "lang": "en",
+      "availability": "open_access",
+      "license": "CC-BY-SA"
+    },
+    "notes": "Study of words and their formation"
+  },
+  "semantic": {
+    "mode": "distributed",
+    "atom_version": "V17",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ],
+    "freq_signature": {
+      "ÊTRE": 0.0526,
+      "DIFFÉRENCE": 0.0,
+      "RAPPORT": 0.1053,
+      "ORIENTATION": 0.0,
+      "SUJET": 0.0,
+      "TEMPS": 0.0526,
+      "MODALITÉ": 0.2632,
+      "NOMBRE": 0.1053,
+      "ESPACE": 0.0,
+      "OPÉRATION": 0.1053,
+      "FONCTION": 0.1053,
+      "STRUCTURE": 0.1579,
+      "SYMÉTRIE": 0.0526,
+      "ÉQUATION": 0.0,
+      "CAUSALITÉ": 0.0,
+      "ÉVÉNEMENT": 0.0,
+      "MENTAL_STATE": 0.0
+    }
+  }
+}

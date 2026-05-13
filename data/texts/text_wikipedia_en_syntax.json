@@ -1,0 +1,65 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "text/wikipedia_en_syntax",
+  "type": "text",
+  "version": "§272",
+  "status": "draft",
+  "meta": {
+    "names": {
+      "en": "Syntax",
+      "fr": "Syntaxe",
+      "de": "Syntax"
+    },
+    "scope": "public",
+    "provenance": {
+      "source_url": "https://en.wikipedia.org/wiki/Syntax",
+      "wikipedia_id": 26860,
+      "lang": "en",
+      "availability": "open_access",
+      "license": "CC-BY-SA"
+    },
+    "notes": "System responsible for combining morphemes into complex structures"
+  },
+  "semantic": {
+    "mode": "distributed",
+    "atom_version": "V17",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ],
+    "freq_signature": {
+      "ÊTRE": 0.0,
+      "DIFFÉRENCE": 0.0,
+      "RAPPORT": 0.2,
+      "ORIENTATION": 0.0,
+      "SUJET": 0.1,
+      "TEMPS": 0.0,
+      "MODALITÉ": 0.0,
+      "NOMBRE": 0.0,
+      "ESPACE": 0.0,
+      "OPÉRATION": 0.2,
+      "FONCTION": 0.1,
+      "STRUCTURE": 0.4,
+      "SYMÉTRIE": 0.0,
+      "ÉQUATION": 0.0,
+      "CAUSALITÉ": 0.0,
+      "ÉVÉNEMENT": 0.0,
+      "MENTAL_STATE": 0.0
+    }
+  }
+}

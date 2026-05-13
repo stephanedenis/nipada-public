@@ -1,0 +1,64 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "text/wikipedia_en_gottfried_wilhelm_leibniz",
+  "type": "text",
+  "version": "§272",
+  "status": "draft",
+  "meta": {
+    "names": {
+      "en": "Gottfried Wilhelm Leibniz",
+      "fr": "Gottfried Wilhelm Leibniz"
+    },
+    "scope": "public",
+    "provenance": {
+      "source_url": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
+      "wikipedia_id": 12281,
+      "lang": "en",
+      "availability": "open_access",
+      "license": "CC-BY-SA"
+    },
+    "notes": "German polymath (1646–1716)"
+  },
+  "semantic": {
+    "mode": "distributed",
+    "atom_version": "V17",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ],
+    "freq_signature": {
+      "ÊTRE": 0.0,
+      "DIFFÉRENCE": 0.1429,
+      "RAPPORT": 0.1429,
+      "ORIENTATION": 0.0,
+      "SUJET": 0.0714,
+      "TEMPS": 0.2857,
+      "MODALITÉ": 0.0,
+      "NOMBRE": 0.1429,
+      "ESPACE": 0.0,
+      "OPÉRATION": 0.0,
+      "FONCTION": 0.0,
+      "STRUCTURE": 0.0714,
+      "SYMÉTRIE": 0.0714,
+      "ÉQUATION": 0.0,
+      "CAUSALITÉ": 0.0714,
+      "ÉVÉNEMENT": 0.0,
+      "MENTAL_STATE": 0.0
+    }
+  }
+}

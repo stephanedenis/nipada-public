@@ -1,0 +1,65 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "text/wikipedia_en_david_hume",
+  "type": "text",
+  "version": "§272",
+  "status": "draft",
+  "meta": {
+    "names": {
+      "en": "David Hume",
+      "fr": "David Hume",
+      "de": "David Hume"
+    },
+    "scope": "public",
+    "provenance": {
+      "source_url": "https://en.wikipedia.org/wiki/David_Hume",
+      "wikipedia_id": 7925,
+      "lang": "en",
+      "availability": "open_access",
+      "license": "CC-BY-SA"
+    },
+    "notes": "Scottish philosopher, historian, economist and essayist (1711–1776)"
+  },
+  "semantic": {
+    "mode": "distributed",
+    "atom_version": "V17",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ],
+    "freq_signature": {
+      "ÊTRE": 0.0909,
+      "DIFFÉRENCE": 0.0,
+      "RAPPORT": 0.0909,
+      "ORIENTATION": 0.0909,
+      "SUJET": 0.4545,
+      "TEMPS": 0.0,
+      "MODALITÉ": 0.0,
+      "NOMBRE": 0.0909,
+      "ESPACE": 0.0,
+      "OPÉRATION": 0.0909,
+      "FONCTION": 0.0,
+      "STRUCTURE": 0.0909,
+      "SYMÉTRIE": 0.0,
+      "ÉQUATION": 0.0,
+      "CAUSALITÉ": 0.0,
+      "ÉVÉNEMENT": 0.0,
+      "MENTAL_STATE": 0.0
+    }
+  }
+}

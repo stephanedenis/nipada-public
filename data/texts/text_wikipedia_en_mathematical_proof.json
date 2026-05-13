@@ -1,0 +1,64 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "text/wikipedia_en_mathematical_proof",
+  "type": "text",
+  "version": "§272",
+  "status": "draft",
+  "meta": {
+    "names": {
+      "en": "Mathematical proof",
+      "fr": "Preuve mathématique"
+    },
+    "scope": "public",
+    "provenance": {
+      "source_url": "https://en.wikipedia.org/wiki/Mathematical_proof",
+      "wikipedia_id": 82285,
+      "lang": "en",
+      "availability": "open_access",
+      "license": "CC-BY-SA"
+    },
+    "notes": "Reasoning for mathematical statements"
+  },
+  "semantic": {
+    "mode": "distributed",
+    "atom_version": "V17",
+    "atom_set": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION",
+      "SUJET",
+      "TEMPS",
+      "MODALITÉ",
+      "NOMBRE",
+      "ESPACE",
+      "OPÉRATION",
+      "FONCTION",
+      "STRUCTURE",
+      "SYMÉTRIE",
+      "ÉQUATION",
+      "CAUSALITÉ",
+      "ÉVÉNEMENT",
+      "MENTAL_STATE"
+    ],
+    "freq_signature": {
+      "ÊTRE": 0.0,
+      "DIFFÉRENCE": 0.0833,
+      "RAPPORT": 0.0833,
+      "ORIENTATION": 0.0833,
+      "SUJET": 0.0,
+      "TEMPS": 0.0,
+      "MODALITÉ": 0.3333,
+      "NOMBRE": 0.1667,
+      "ESPACE": 0.0,
+      "OPÉRATION": 0.0,
+      "FONCTION": 0.0833,
+      "STRUCTURE": 0.0833,
+      "SYMÉTRIE": 0.0,
+      "ÉQUATION": 0.0,
+      "CAUSALITÉ": 0.0,
+      "ÉVÉNEMENT": 0.0833,
+      "MENTAL_STATE": 0.0
+    }
+  }
+}

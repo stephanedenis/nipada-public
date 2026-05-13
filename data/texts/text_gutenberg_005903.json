@@ -4,23 +4,23 @@
   "mode": "distributed",
   "semantic": {
     "freq_signature": {
-      "ÊTRE": 0.0588,
-      "DIFFÉRENCE": 0.0588,
-      "RAPPORT": 0.0588,
-      "ORIENTATION": 0.0588,
-      "SUJET": 0.0588,
-      "TEMPS": 0.0588,
-      "MODALITÉ": 0.0588,
-      "NOMBRE": 0.0588,
-      "ESPACE": 0.0588,
-      "OPÉRATION": 0.0588,
-      "FONCTION": 0.0588,
-      "STRUCTURE": 0.0588,
+      "ÊTRE": 0.0257,
+      "DIFFÉRENCE": 0.0846,
+      "RAPPORT": 0.0735,
+      "ORIENTATION": 0.136,
+      "SUJET": 0.011,
+      "TEMPS": 0.0956,
+      "MODALITÉ": 0.011,
+      "NOMBRE": 0.2059,
+      "ESPACE": 0.0515,
+      "OPÉRATION": 0.0294,
+      "FONCTION": 0.0551,
+      "STRUCTURE": 0.0515,
       "SYMÉTRIE": 0.0588,
-      "ÉQUATION": 0.0588,
-      "CAUSALITÉ": 0.0588,
-      "ÉVÉNEMENT": 0.0588,
-      "MENTAL_STATE": 0.0588
+      "ÉQUATION": 0.011,
+      "CAUSALITÉ": 0.0368,
+      "ÉVÉNEMENT": 0.0294,
+      "MENTAL_STATE": 0.0331
     },
     "atom_version": "§272",
     "atom_set": [
@@ -63,8 +63,8 @@
         "hu"
       ],
       "url": "https://www.gutenberg.org/ebooks/5903",
-      "fetched_at": "2026-05-13T20:11:59Z",
-      "stub": true
+      "fetched_at": "2026-05-13T20:46:22Z",
+      "stub": false
     }
   }
 }

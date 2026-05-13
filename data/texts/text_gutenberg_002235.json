@@ -4,23 +4,23 @@
   "mode": "distributed",
   "semantic": {
     "freq_signature": {
-      "ÊTRE": 0.0588,
-      "DIFFÉRENCE": 0.0588,
-      "RAPPORT": 0.0588,
-      "ORIENTATION": 0.0588,
-      "SUJET": 0.0588,
-      "TEMPS": 0.0588,
-      "MODALITÉ": 0.0588,
-      "NOMBRE": 0.0588,
-      "ESPACE": 0.0588,
-      "OPÉRATION": 0.0588,
-      "FONCTION": 0.0588,
-      "STRUCTURE": 0.0588,
-      "SYMÉTRIE": 0.0588,
-      "ÉQUATION": 0.0588,
-      "CAUSALITÉ": 0.0588,
-      "ÉVÉNEMENT": 0.0588,
-      "MENTAL_STATE": 0.0588
+      "ÊTRE": 0.0471,
+      "DIFFÉRENCE": 0.0362,
+      "RAPPORT": 0.0109,
+      "ORIENTATION": 0.1667,
+      "SUJET": 0.0036,
+      "TEMPS": 0.1486,
+      "MODALITÉ": 0.0145,
+      "NOMBRE": 0.221,
+      "ESPACE": 0.0761,
+      "OPÉRATION": 0.0942,
+      "FONCTION": 0.0543,
+      "STRUCTURE": 0.0036,
+      "SYMÉTRIE": 0.0072,
+      "ÉQUATION": 0.0072,
+      "CAUSALITÉ": 0.0652,
+      "ÉVÉNEMENT": 0.0,
+      "MENTAL_STATE": 0.0435
     },
     "atom_version": "§272",
     "atom_set": [
@@ -68,8 +68,8 @@
         "tl"
       ],
       "url": "https://www.gutenberg.org/ebooks/2235",
-      "fetched_at": "2026-05-13T20:11:59Z",
-      "stub": true
+      "fetched_at": "2026-05-13T20:46:08Z",
+      "stub": false
     }
   }
 }
