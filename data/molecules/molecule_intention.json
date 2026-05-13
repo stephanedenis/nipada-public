@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "molecule/intention",
+  "type": "molecule",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "INTENTION",
+      "en": "INTENTION",
+      "sa": "cetanā"
+    },
+    "scope": "public",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "intention",
+          "viser",
+          "désir",
+          "espoir",
+          "croyance",
+          "attention"
+        ],
+        "en": [
+          "intention",
+          "aim",
+          "desire",
+          "hope",
+          "belief",
+          "attention"
+        ],
+        "sa": [
+          "cetanā (intention)",
+          "icchā (désir)",
+          "śraddhā (foi/visée)"
+        ],
+        "zh": [
+          "意 (yì) — intention, signification"
+        ]
+      },
+      "convergences": [
+        "Husserl — intentionnalité (tout acte de conscience vise un objet)",
+        "Brentano — intentional inexistence (l'objet immanent à l'acte)",
+        "Metzinger — PSM réel (70) vs MOI phénoménal (70i)",
+        "Wittgenstein II — intention comme usage (l'intention dans la pratique)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 70,
+    "factors": [
+      2,
+      5,
+      7
+    ],
+    "names": [
+      "ÊTRE",
+      "RAPPORT",
+      "ORIENTATION"
+    ],
+    "formula": "ÊTRE ∧ RAPPORT ∧ ORIENTATION",
+    "level": 2,
+    "domain": "Z+"
+  }
+}

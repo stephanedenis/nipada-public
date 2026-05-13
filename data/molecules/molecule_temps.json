@@ -1,0 +1,63 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "molecule/temps",
+  "type": "molecule",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "TEMPS",
+      "en": "TIME",
+      "sa": "kāla"
+    },
+    "scope": "public",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "temps",
+          "durée",
+          "moment",
+          "époque",
+          "cycle"
+        ],
+        "en": [
+          "time",
+          "duration",
+          "period",
+          "cycle"
+        ],
+        "sa": [
+          "kāla (temps)",
+          "prakriti (nature temporelle)"
+        ],
+        "zh": [
+          "时 (shí) — temps, moment"
+        ]
+      },
+      "convergences": [
+        "Sānkhya — Prakriti (la nature comme flux temporel, 105 = kāla)",
+        "Boltzmann — flèche du temps thermodynamique",
+        "Newton — temps absolu (indépendant des observateurs = sans ÊTRE)",
+        "Einstein — temps relatif (avec ÊTRE = 2×105 = 210, le temps vécu)",
+        "Husserl — temps objectif vs temps vécu (105 vs 70)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 105,
+    "factors": [
+      3,
+      5,
+      7
+    ],
+    "names": [
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION"
+    ],
+    "formula": "DIFFÉRENCE ∧ RAPPORT ∧ ORIENTATION",
+    "level": 2,
+    "domain": "Z+"
+  }
+}

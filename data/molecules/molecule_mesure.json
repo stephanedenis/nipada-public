@@ -1,0 +1,60 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "molecule/mesure",
+  "type": "molecule",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "MESURE",
+      "en": "MEASURE",
+      "sa": "māna"
+    },
+    "scope": "public",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "comme",
+          "autant que",
+          "à peu près",
+          "mesure",
+          "proportion"
+        ],
+        "en": [
+          "like",
+          "as much as",
+          "measure",
+          "degree"
+        ],
+        "sa": [
+          "yathā (comme, à la mesure de)",
+          "māna (mesure)"
+        ],
+        "zh": [
+          "像 (xiàng) — ressembler à"
+        ]
+      },
+      "convergences": [
+        "Wierzbicka NSM — LIKE / AS (primitive de similitude)",
+        "Jakobson — combinaison de traits distinctifs (mesure phonologique)",
+        "Rosch — prototype et degrés de typicalité (mesure de similarité)",
+        "Frege — concept comme fonction (mappage différence → rapport)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 15,
+    "factors": [
+      3,
+      5
+    ],
+    "names": [
+      "DIFFÉRENCE",
+      "RAPPORT"
+    ],
+    "formula": "DIFFÉRENCE ∧ RAPPORT",
+    "level": 1,
+    "domain": "Z+"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "molecule/vie",
+  "type": "molecule",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "VIE",
+      "en": "LIFE",
+      "sa": "jīva"
+    },
+    "scope": "public",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "vie",
+          "organisme",
+          "cellule",
+          "sang",
+          "corps"
+        ],
+        "en": [
+          "life",
+          "organism",
+          "living being"
+        ],
+        "sa": [
+          "jīva (être vivant)",
+          "prāṇa (souffle vital)"
+        ],
+        "zh": [
+          "生 (shēng) — vie, naissance"
+        ]
+      },
+      "convergences": [
+        "Maturana & Varela — autopoïèse (organisation minimale du vivant)",
+        "Prigogine — structure dissipative (organisme comme structure hors-équilibre)",
+        "Sānkhya — Sattvas (le principe de clarté et de relation)",
+        "Spinoza — conatus (l'effort du vivant à persévérer dans son être)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 30,
+    "factors": [
+      2,
+      3,
+      5
+    ],
+    "names": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT"
+    ],
+    "formula": "ÊTRE ∧ DIFFÉRENCE ∧ RAPPORT",
+    "level": 2,
+    "domain": "Z+"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "atom/etre",
+  "type": "atom",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "ÊTRE"
+    },
+    "scope": "public",
+    "provenance": {
+      "peirce": "Priméité — qualité pure, avant toute relation",
+      "jakobson": "compact/diffuse — présence vs absence de formants",
+      "dehaene": "thatness — perception de présence sans discrimination",
+      "uexkull": "présence perçue dans tout Umwelt biologique",
+      "convergences": [
+        "Peirce — Priméité (qualité pure)",
+        "Spinoza — substance unique (Deus sive Natura)",
+        "Wheeler — It from Bit (la présence avant la mesure)",
+        "Husserl — hylé (matière intentionnelle brute)",
+        "Wierzbicka NSM — EXIST (primitif universel le plus robuste)",
+        "Jakobson — axe compact/diffuse (présence vs absence de formants)",
+        "Dehaene — subitizing (1 item perçu sans comptage)",
+        "Uexküll — Merkmal (signal de présence dans tout Umwelt)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 2,
+    "factors": [],
+    "names": [
+      "ÊTRE"
+    ],
+    "formula": "ÊTRE",
+    "level": 0,
+    "domain": "Z+"
+  }
+}

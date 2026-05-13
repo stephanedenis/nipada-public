@@ -1,0 +1,59 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "molecule/opposition",
+  "type": "molecule",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "OPPOSITION",
+      "en": "OPPOSITION",
+      "sa": "virodha"
+    },
+    "scope": "public",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "contre",
+          "versus",
+          "opposé à",
+          "contraire"
+        ],
+        "en": [
+          "against",
+          "versus",
+          "opposite",
+          "contrary"
+        ],
+        "sa": [
+          "virodha (opposition)",
+          "pratikūla (contraire)"
+        ],
+        "zh": [
+          "对 (duì) — face à, contre"
+        ]
+      },
+      "convergences": [
+        "Hegel — opposition dialectique (thèse/antithèse orientée)",
+        "Lévi-Strauss — opposition binaire mythémique",
+        "Saussure — opposition paradigmatique (choix entre alternatives)",
+        "Jakobson — corrélation phonologique (paire minimale orientée)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 21,
+    "factors": [
+      3,
+      7
+    ],
+    "names": [
+      "DIFFÉRENCE",
+      "ORIENTATION"
+    ],
+    "formula": "DIFFÉRENCE ∧ ORIENTATION",
+    "level": 1,
+    "domain": "Z+"
+  }
+}

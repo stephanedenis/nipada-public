@@ -1,0 +1,27 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "atom/causer",
+  "type": "atom",
+  "version": "§272",
+  "status": "hypothetical",
+  "meta": {
+    "names": {
+      "fr": "CAUSER"
+    },
+    "scope": "public",
+    "provenance": {
+      "peirce": "Secondéité productive — la relation causale asymétrique qui n'est réductible ni à ORIENTATION ni à RAPPORT"
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 11,
+    "factors": [],
+    "names": [
+      "CAUSER"
+    ],
+    "formula": "CAUSER",
+    "level": 0,
+    "domain": "Z+"
+  }
+}

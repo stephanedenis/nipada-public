@@ -1,0 +1,58 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "molecule/reference",
+  "type": "molecule",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "RÉFÉRENCE",
+      "en": "REFERENCE",
+      "sa": "saṃsmaraṇa"
+    },
+    "scope": "public",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "avant",
+          "après",
+          "se souvient de",
+          "anticipe",
+          "réfère à"
+        ],
+        "en": [
+          "before",
+          "after",
+          "remembers",
+          "anticipates",
+          "refers to"
+        ],
+        "sa": [
+          "smṛti (mémoire)",
+          "āśā (espoir/anticipation)"
+        ]
+      },
+      "convergences": [
+        "Husserl — rétention/protention (les deux modes de la conscience du temps)",
+        "Frege — Bedeutung (référence temporellement située)",
+        "Tulving — mémoire épisodique (voyage mental dans le temps)",
+        "Suddendorf & Corballis — mental time travel (référence temporelle déplacée)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 35,
+    "factors": [
+      5,
+      7
+    ],
+    "names": [
+      "RAPPORT",
+      "ORIENTATION"
+    ],
+    "formula": "RAPPORT ∧ ORIENTATION",
+    "level": 1,
+    "domain": "Z+"
+  }
+}

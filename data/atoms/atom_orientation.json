@@ -1,0 +1,40 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "atom/orientation",
+  "type": "atom",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "ORIENTATION"
+    },
+    "scope": "public",
+    "provenance": {
+      "peirce": "Secondéité authentique — réaction dirigée, résistance, l'action qui a un sens de traversée",
+      "jakobson": "grave/aigu — direction spectrale (basses vs hautes fréquences, espace tonal orienté)",
+      "dehaene": "ligne mentale du temps — la ligne numérique spatiale (gauche=passé, droite=futur)",
+      "uexkull": "Wirkmal — signal d'action, déclencheur moteur dirigé (chaleur→mordre chez la tique)",
+      "convergences": [
+        "Peirce — Secondéité authentique (réaction dirigée, résistance)",
+        "Husserl — rétention/protention (conscience temporelle dirigée)",
+        "Boltzmann — flèche du temps (asymétrie thermodynamique)",
+        "Jakobson — grave/aigu (direction spectrale)",
+        "Whorf — aspect grammatical (direction temporelle encodée dans les langues)",
+        "Wierzbicka NSM — HAPPEN / MOVE (événementialité, mouvement orienté)",
+        "Uexküll — Wirkmal (signal d'action = stimulus déclenche réponse orientée)",
+        "Lakoff — schéma image SOURCE-PATH-GOAL (orientation canonique de l'action)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 7,
+    "factors": [],
+    "names": [
+      "ORIENTATION"
+    ],
+    "formula": "ORIENTATION",
+    "level": 0,
+    "domain": "Z+"
+  }
+}

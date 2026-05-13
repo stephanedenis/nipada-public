@@ -1,0 +1,54 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "crossing/derive",
+  "type": "crossing",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "DÉRIVE",
+      "en": "DRIFT",
+      "sa": "nirlakṣya"
+    },
+    "scope": "public",
+    "notes": "Sans direction, sans flèche du temps, sans asymétrie. L'entropie maximale au sens informationnel : toutes les directions sont équiprobables — aucune n'est distinguée. La dérive brownienne pure. L'état thermodynamique d'équilibre (T → ∞). Le flaneur de Baudelaire — mais aussi le traumatisme de la désorientation totale. | [Spencer-Brown] ORIENTATION=7 encode la flèche, l'asymétrie, la direction. Son crossing -7 efface cette asymétrie : le temps devient réversible, l'espace homogène. Boltzmann : l'état d'entropie maximale est le seul état sans ORIENTATION préférentielle.",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "dérive",
+          "errance",
+          "désorientation",
+          "diffusion",
+          "chaos directionnel"
+        ],
+        "sa": [
+          "nirlakṣya (sans cible)",
+          "bhrānti (égarement)"
+        ],
+        "de": [
+          "das Gleiten (la dérive)"
+        ]
+      },
+      "convergences": [
+        "Boltzmann — entropie maximale (équilibre thermodynamique sans gradient)",
+        "Baudelaire/Benjamin — flânerie (dérive sans destination)",
+        "Internationale Situationniste — dérive (mouvement sans trajectoire imposée)",
+        "Prigogine — équilibre thermodynamique (avant la brisure de symétrie temporelle)",
+        "Penrose — avant la réduction objective (superposition sans direction préférentielle)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": -7,
+    "factors": [
+      7
+    ],
+    "names": [
+      "ORIENTATION"
+    ],
+    "formula": "-(ORIENTATION) = crossing(ORIENTATION)",
+    "level": 0,
+    "domain": "Z-"
+  }
+}

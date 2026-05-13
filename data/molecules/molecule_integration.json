@@ -1,0 +1,79 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "molecule/integration",
+  "type": "molecule",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "INTÉGRATION",
+      "en": "INTEGRATION",
+      "sa": "pūrṇatā"
+    },
+    "scope": "public",
+    "provenance": {
+      "examples": {
+        "universal_concepts": [
+          "MAIN",
+          "MÈRE",
+          "CHEMIN",
+          "PAROLE/LANGUE",
+          "MAISON"
+        ],
+        "fr": [
+          "main",
+          "mère",
+          "chemin",
+          "parole",
+          "langue",
+          "maison"
+        ],
+        "en": [
+          "hand",
+          "mother",
+          "path/road",
+          "speech/language",
+          "home"
+        ],
+        "sa": [
+          "hasta/pāṇi (main)",
+          "mātṛ (mère)",
+          "mārga/patha (chemin)",
+          "vāc (parole)"
+        ],
+        "zh": [
+          "手 (shǒu) — main",
+          "母 (mǔ) — mère",
+          "路 (lù) — chemin",
+          "语 (yǔ) — langue"
+        ]
+      },
+      "convergences": [
+        "Lévi-Strauss — le mythème complet (toutes les oppositions résolues)",
+        "Lakoff — schéma image complet (ORIGIN-PATH-GOAL + CONTAINER + LINK)",
+        "Wierzbicka NSM — I/YOU (les deux primitifs de la personne = 210 réciproques)",
+        "Chomsky — la proposition minimale complète (sujet + prédicat + temps + aspect)",
+        "Cassirer — le symbole pleinement développé (intuition + concept + relation + direction)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 210,
+    "factors": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "names": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION"
+    ],
+    "formula": "ÊTRE ∧ DIFFÉRENCE ∧ RAPPORT ∧ ORIENTATION",
+    "level": 3,
+    "domain": "Z+"
+  }
+}

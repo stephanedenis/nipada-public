@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "molecule/transformation",
+  "type": "molecule",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "TRANSFORMATION",
+      "en": "TRANSFORMATION",
+      "sa": "pariṇāma"
+    },
+    "scope": "public",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "feu",
+          "mort",
+          "naissance",
+          "soleil",
+          "transformation",
+          "cuire"
+        ],
+        "en": [
+          "fire",
+          "death",
+          "sun",
+          "transformation",
+          "cook"
+        ],
+        "sa": [
+          "agni (feu)",
+          "mṛtyu (mort)",
+          "sūrya (soleil)"
+        ],
+        "zh": [
+          "火 (huǒ) — feu",
+          "变 (biàn) — transformer"
+        ]
+      },
+      "convergences": [
+        "Thom — catastrophes (7 modes de transformation structurelle)",
+        "Lévi-Strauss — le cuit et le cru (transformation culturelle = 42)",
+        "Héraclite — le feu comme principe de transformation",
+        "Prigogine — bifurcation (transformation à un point de non-retour)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 42,
+    "factors": [
+      2,
+      3,
+      7
+    ],
+    "names": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "ORIENTATION"
+    ],
+    "formula": "ÊTRE ∧ DIFFÉRENCE ∧ ORIENTATION",
+    "level": 2,
+    "domain": "Z+"
+  }
+}

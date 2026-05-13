@@ -1,0 +1,59 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "crossing/stase",
+  "type": "crossing",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "STASE",
+      "en": "STASIS",
+      "sa": "sthāna"
+    },
+    "scope": "public",
+    "notes": "L'absence de transformation, la cristallisation, l'état figé. Là où TRANSFORMATION=42 encode le changement d'état orienté, -42 efface cette transformation : l'être est différencié et orienté mais sans métabolisme de changement. Le cristal : structure différenciée et orientée (anisotrope) mais sans transformation interne. La stase sociale, l'équilibre thermodynamique d'un système dissipateur. | [Spencer-Brown] TRANSFORMATION = ÊTRE × DIFFÉRENCE × ORIENTATION. Son crossing -42 : différencié, orienté, mais figé. Distinct de la PERMANENCE (-14 : sans orientation) — ici l'orientation existe mais ne produit pas de transformation. Le cristal a une orientation (axes cristallins) mais ne se transforme pas.",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "stase",
+          "cristallisation",
+          "figement",
+          "équilibre stable",
+          "inertie structurée"
+        ],
+        "sa": [
+          "sthāna (position fixe)",
+          "sthiti (stabilité)",
+          "acalā avasthā (état immobile)"
+        ],
+        "gr": [
+          "στάσις (stasis — arrêt, équilibre, aussi guerre civile)"
+        ]
+      },
+      "convergences": [
+        "Thom — catastrophe évitée (le système reste dans son bassin d'attraction)",
+        "Prigogine — équilibre thermodynamique (hors dissipation, sans transformation)",
+        "Biot — cristallographie (structures orientées sans transformation intrinsèque)",
+        "Marx — réification (les rapports sociaux figés en choses)",
+        "Freud — fixation (le développement psychique bloqué à un stade)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": -42,
+    "factors": [
+      2,
+      3,
+      7
+    ],
+    "names": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "ORIENTATION"
+    ],
+    "formula": "-(ÊTRE ∧ DIFFÉRENCE ∧ ORIENTATION) = crossing(TRANSFORMATION)",
+    "level": 2,
+    "domain": "Z-"
+  }
+}

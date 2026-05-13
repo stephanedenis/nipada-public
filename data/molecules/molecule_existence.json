@@ -1,0 +1,38 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "molecule/existence",
+  "type": "molecule",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "EXISTENCE",
+      "en": "EXISTENCE",
+      "sa": "astitva"
+    },
+    "scope": "public",
+    "provenance": {
+      "convergences": [
+        "Heidegger — Dasein (être-là, être distingué du fond)",
+        "Frege — Bedeutung/Sinn — l'existence comme référence stable",
+        "Russell — 'quelque chose qui est F' — quantificateur existentiel",
+        "Badiou — l'Un comme distinction (avant tout compte-pour-un)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 6,
+    "factors": [
+      2,
+      3
+    ],
+    "names": [
+      "ÊTRE",
+      "DIFFÉRENCE"
+    ],
+    "formula": "ÊTRE ∧ DIFFÉRENCE",
+    "level": 1,
+    "domain": "Z+"
+  }
+}

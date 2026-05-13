@@ -1,0 +1,61 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "crossing/fragmentation",
+  "type": "crossing",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "FRAGMENTATION",
+      "en": "FRAGMENTATION",
+      "sa": "vipralāpa"
+    },
+    "scope": "public",
+    "notes": "La dissolution de toutes les structures, la fragmentation totale, le chaos pur. Là où INTÉGRATION=210 rassemble les 4 atomes en un tout cohérent (être différencié, relié et orienté), -210 traverse toutes ces frontières simultanément : l'être se désintègre, les distinctions s'effacent, les rapports se rompent, les orientations se perdent. Le chaos primordial. Mais aussi : la déterritorialisation absolue de Deleuze, le tabou (violation intentionnelle de toutes les structures), le trauma maximal. | [Spencer-Brown] INTÉGRATION = ÊTRE × DIFFÉRENCE × RAPPORT × ORIENTATION. Son crossing -210 : l'anti-intégration totale. C'est le concept le plus rare et le plus puissant du domaine Z négatif — il n'apparaît que dans les expériences limites : mort totale, chaos cosmologique, tabou absolu, dissolution mystique (certains états de kenshō ou de psychose extrême).",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "chaos",
+          "dissolution",
+          "fragmentation totale",
+          "tabou absolu",
+          "effondrement"
+        ],
+        "sa": [
+          "vipralāpa (désintégration, incohérence totale)",
+          "pralaya (dissolution cosmique)"
+        ],
+        "zh": [
+          "混沌 (hùndùn — chaos primordial)"
+        ]
+      },
+      "convergences": [
+        "Deleuze & Guattari — déterritorialisation absolue (dissolution de tous les agencements)",
+        "Freud — pulsion de mort maximale (dissolution totale de tout lien et toute structure)",
+        "Bataille — transgression absolue (violation de toutes les interdictions = -210)",
+        "Chaos cosmologique — singularité pré-Big Bang (avant toute distinction physique)",
+        "Spencer-Brown — crossing de la forme primaire entière (traversée de toutes les frontières)",
+        "Bouddhisme Vajrayāna — dissolution de l'ego total (mahāmudrā extrême)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": -210,
+    "factors": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "names": [
+      "ÊTRE",
+      "DIFFÉRENCE",
+      "RAPPORT",
+      "ORIENTATION"
+    ],
+    "formula": "-(ÊTRE ∧ DIFFÉRENCE ∧ RAPPORT ∧ ORIENTATION) = crossing(INTÉGRATION)",
+    "level": 3,
+    "domain": "Z-"
+  }
+}

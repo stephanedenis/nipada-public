@@ -1,0 +1,40 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "atom/rapport",
+  "type": "atom",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "RAPPORT"
+    },
+    "scope": "public",
+    "provenance": {
+      "peirce": "Tiercéité — médiation, signe, représentation, la relation entre deux termes par un tiers",
+      "jakobson": "sonore/sourd — présence de vibration vocalique (la voix comme médiation sociale)",
+      "dehaene": "connexion synaptique — le réseau comme structure de rapport",
+      "uexkull": "Funktionskreis — le cercle fonctionnel entre Merkmal et Wirkmal (médiation perceptivo-motrice)",
+      "convergences": [
+        "Peirce — Tiercéité (signe, médiation, représentation)",
+        "Cassirer — forme symbolique (rapport entre intuition et concept)",
+        "Leibniz — harmonie préétablie (médiation entre monades)",
+        "Varela — couplage structurel (médiation organisme/environnement)",
+        "Fillmore — rôle sémantique dans un frame (relation entre participants)",
+        "Wierzbicka NSM — LIKE / AS (similitude, mise en rapport)",
+        "Jakobson — sonore/sourd (la voix comme rapport inter-individuel)",
+        "Transformers — mécanisme d'attention (QK^T = RAPPORT² sur le corpus)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 5,
+    "factors": [],
+    "names": [
+      "RAPPORT"
+    ],
+    "formula": "RAPPORT",
+    "level": 0,
+    "domain": "Z+"
+  }
+}

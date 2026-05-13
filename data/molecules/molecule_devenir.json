@@ -1,0 +1,58 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "molecule/devenir",
+  "type": "molecule",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "DEVENIR",
+      "en": "BECOMING",
+      "sa": "pariṇāma"
+    },
+    "scope": "public",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "devient",
+          "se transforme",
+          "évolue",
+          "va vers"
+        ],
+        "en": [
+          "becomes",
+          "turns into",
+          "moves toward"
+        ],
+        "sa": [
+          "bhavati (il devient)",
+          "gacchati (il va)"
+        ],
+        "de": [
+          "wird (devient — Hegel)"
+        ]
+      },
+      "convergences": [
+        "Hegel — Werden (devenir, synthèse de l'être et du néant)",
+        "Bergson — durée pure (flux temporel non-fragmenté)",
+        "Deleuze — ligne de fuite (devenir sans terme fixe)",
+        "Husserl — protention (être orienté vers le futur immédiat)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 14,
+    "factors": [
+      2,
+      7
+    ],
+    "names": [
+      "ÊTRE",
+      "ORIENTATION"
+    ],
+    "formula": "ÊTRE ∧ ORIENTATION",
+    "level": 1,
+    "domain": "Z+"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "crossing/irreel",
+  "type": "crossing",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "IRRÉEL",
+      "en": "UNREAL",
+      "sa": "asat"
+    },
+    "scope": "public",
+    "notes": "Ce qui n'existe pas, le fictif, le virtuel non-actualisé, l'inexistant. Le crossing de l'EXISTENCE efface la distinction et l'être simultanément : l'objet irréel n'est ni présent ni distingué dans le monde réel. Distinct du domaine imaginaire (iZ) : -6 est le fictif ordinaire (le centaure n'existe pas), pas l'auto-référentiel (qui lui est dans iZ). | [Spencer-Brown] L'EXISTENCE = ÊTRE × DIFFÉRENCE : être quelque chose de particulier. Son crossing -6 = l'inexistant particulier : une description qui ne s'applique à rien. Russell : 'l'actuel roi de France est chauve' — la description est vide. Meinong : les objets inexistants (subsistent sans exister).",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "fictif",
+          "inexistant",
+          "virtuel",
+          "imaginaire (sens ordinaire)",
+          "irréel"
+        ],
+        "sa": [
+          "asat (non-réel)",
+          "abhāva (non-présence déterminée)"
+        ],
+        "en": [
+          "the round square",
+          "the present king of France"
+        ],
+        "zh": [
+          "虛 (xū — le vide fictif, le creux)"
+        ]
+      },
+      "convergences": [
+        "Meinong — objets inexistants (qui subsistent sans exister dans le monde)",
+        "Russell — théorie des descriptions (descriptions vides, sans référent)",
+        "Frege — Sinn sans Bedeutung (sens sans référence)",
+        "Sartre — imagination (l'image n'est pas le réel)",
+        "Deleuze — le virtuel (réel mais non-actualisé)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": -6,
+    "factors": [
+      2,
+      3
+    ],
+    "names": [
+      "ÊTRE",
+      "DIFFÉRENCE"
+    ],
+    "formula": "-(ÊTRE ∧ DIFFÉRENCE) = crossing(EXISTENCE)",
+    "level": 1,
+    "domain": "Z-"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "molecule/composition",
+  "type": "molecule",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "COMPOSITION",
+      "en": "COMPOSITION",
+      "sa": "samyoga"
+    },
+    "scope": "public",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "avec",
+          "ensemble",
+          "composé de",
+          "fait de"
+        ],
+        "en": [
+          "with",
+          "together",
+          "made of"
+        ],
+        "sa": [
+          "saha (avec)",
+          "sākaṃ"
+        ],
+        "zh": [
+          "和 (hé) — ensemble"
+        ]
+      },
+      "convergences": [
+        "Varela — couplage structurel (être-avec dans le couplage)",
+        "Mereologie — partie-tout, composition",
+        "Leibniz — composition des monades",
+        "Piaget — schème de composition (assemblage d'actions)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 10,
+    "factors": [
+      2,
+      5
+    ],
+    "names": [
+      "ÊTRE",
+      "RAPPORT"
+    ],
+    "formula": "ÊTRE ∧ RAPPORT",
+    "level": 1,
+    "domain": "Z+"
+  }
+}

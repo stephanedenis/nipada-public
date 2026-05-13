@@ -1,0 +1,58 @@
+{
+  "$schema": "https://nipada.org/schema/node_v1.json",
+  "nipada_id": "crossing/abandon",
+  "type": "crossing",
+  "version": "§272",
+  "status": "canonical",
+  "meta": {
+    "names": {
+      "fr": "ABANDON",
+      "en": "ABANDONMENT",
+      "sa": "niṣkāma"
+    },
+    "scope": "public",
+    "notes": "L'absence de visée, la suspension de toute intentionnalité, l'abandon. Là où INTENTION=70 encode l'être relié et orienté vers une cible, -70 efface cette orientation intentionnelle : les liens subsistent mais sans direction de visée. Le niṣkāma karma de la Bhagavad Gītā : l'action sans désir de résultat. L'épochè de Husserl : suspension de toute thèse intentionnelle. Mais aussi : l'abandon pathologique, la dépression profonde. | [Spencer-Brown] INTENTION = ÊTRE × RAPPORT × ORIENTATION. Son crossing -70 : être relié mais sans visée. Deux lectures : (1) libération (niṣkāma : agir sans s'attacher au résultat) ; (2) pathologie (l'abandon de toute intentionnalité = dépression, nihilisme).",
+    "provenance": {
+      "examples": {
+        "fr": [
+          "abandon",
+          "désinvestissement",
+          "détachement",
+          "lâcher-prise"
+        ],
+        "sa": [
+          "niṣkāma (sans désir de résultat)",
+          "vairāgya (détachement)",
+          "tyāga (renoncement)"
+        ],
+        "ja": [
+          "無心 (mushin — sans esprit intentionnel, arts martiaux zen)"
+        ]
+      },
+      "convergences": [
+        "Husserl — épochè (suspension de la thèse intentionnelle naturelle)",
+        "Bhagavad Gītā — niṣkāma karma (l'acte sans visée de résultat)",
+        "Zen — mushin (l'esprit sans intention directrice)",
+        "Heidegger — Gelassenheit (laisser-être, abandon de la volonté de maîtrise)",
+        "Beckett — 'Je ne peux pas continuer, je continue' (intention suspendue mais action)"
+      ]
+    }
+  },
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": -70,
+    "factors": [
+      2,
+      5,
+      7
+    ],
+    "names": [
+      "ÊTRE",
+      "RAPPORT",
+      "ORIENTATION"
+    ],
+    "formula": "-(ÊTRE ∧ RAPPORT ∧ ORIENTATION) = crossing(INTENTION)",
+    "level": 2,
+    "domain": "Z-"
+  }
+}
