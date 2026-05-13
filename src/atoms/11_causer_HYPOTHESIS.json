@@ -1,0 +1,85 @@
+{
+  "id": 11,
+  "name": "CAUSER",
+  "name_en": "CAUSE",
+  "name_sa": "hetu",
+  "type": "atom",
+  "factors": [],
+  "mask": null,
+  "level": 0,
+  "domain": "Z",
+  "status": "HYPOTHESIS — requires empirical validation",
+  "hypothesis_branch": "hypothesis/causer-11-fifth-atom",
+  "validation_threshold": "corpus > 10000 lemmes × > 20 langues",
+  "peirce": "Secondéité productive — la relation causale asymétrique qui n'est réductible ni à ORIENTATION ni à RAPPORT",
+  "property": "fifth_prime — si confirmé, max niveau 1 = 2×3×5×7×11 = 2310",
+  "grassmann_test": {
+    "can_causer_be_built_from_existing_atoms": false,
+    "proof": "INTENTION(70) ∧ OPPOSITION(21) = (2∧5∧7) ∧ (3∧7) = 0 car 7∧7=0. Toute tentative de construire CAUSER comme produit de molécules existantes produit 0 dans l'algèbre de Grassmann. Ce n'est pas déductible — c'est un argument fort pour son statut d'atome.",
+    "other_attempts": [
+      "42 × (-1) = -42 : transformation inversée, pas causalité",
+      "105 × 2 = 210 : temps vécu, pas causalité",
+      "35 × 3 = 105 : temps physique, pas causalité"
+    ]
+  },
+  "wierzbicka_evidence": {
+    "nsmEntry": "BECAUSE / CAUSE",
+    "status": "primitif NSM résistant — apparaît dans >30 langues testées sans décomposition satisfaisante",
+    "reference": "Wierzbicka 1972, 1996, 2022 — Semantic Primes and Universal Grammar"
+  },
+  "hume_argument": "Hume (1739) : la causalité n'est pas réductible à la succession temporelle (≠ 105). On peut avoir 105 (temps orienté) sans causalité. La causalité implique une nécessité conditionnelle que le temps seul ne contient pas.",
+  "lewis_argument": "Lewis (1973) — analyse contrefactuelle : 'X cause Y' ssi dans le monde possible le plus proche où X n'a pas eu lieu, Y n'a pas eu lieu non plus. Cette structure modale est irréductible aux 4 atomes.",
+  "molecules_if_confirmed": {
+    "2×11": 22,
+    "3×11": 33,
+    "5×11": 55,
+    "7×11": 77,
+    "2×3×11": 66,
+    "2×5×11": 110,
+    "2×7×11": 154,
+    "3×5×11": 165,
+    "3×7×11": 231,
+    "5×7×11": 385,
+    "2×3×5×11": 330,
+    "2×3×7×11": 462,
+    "2×5×7×11": 770,
+    "3×5×7×11": 1155,
+    "2×3×5×7×11": 2310
+  },
+  "key_molecule_if_confirmed": {
+    "55": {
+      "factors": [
+        5,
+        11
+      ],
+      "name": "LIEN-CAUSAL",
+      "notes": "RAPPORT × CAUSER — la relation causale explicitée. 'parce que', 'donc', 'implique'"
+    },
+    "154": {
+      "factors": [
+        2,
+        7,
+        11
+      ],
+      "name": "FORCER",
+      "notes": "ÊTRE × ORIENTATION × CAUSER — l'action qui force un résultat orienté"
+    },
+    "2310": {
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "name": "AGENTIVITÉ-COMPLÈTE",
+      "notes": "Tous atomes — l'agent pleinement intégré qui cause, perçoit, relie et s'oriente"
+    }
+  },
+  "empirical_test": {
+    "method": "Pour chaque langue du corpus, tenter d'encoder 'X cause Y' uniquement avec {2,3,5,7}. Si le résidu est systématiquement non-encodable sans 11, CAUSER est un atome.",
+    "languages_minimum": 20,
+    "lemmas_minimum": 10000,
+    "falsification_condition": "Si CAUSER = f(2,3,5,7) pour une décomposition f cohérente dans >15 langues, alors 11 n'est pas un atome."
+  }
+}

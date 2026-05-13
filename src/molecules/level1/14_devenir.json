@@ -1,0 +1,43 @@
+{
+  "id": 14,
+  "name": "DEVENIR",
+  "name_en": "BECOMING",
+  "name_sa": "pariṇāma",
+  "type": "molecule",
+  "factors": [
+    2,
+    7
+  ],
+  "mask": 9,
+  "level": 1,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "ÊTRE ∧ ORIENTATION",
+  "notes": "L'être orienté. Le devenir pur. Ce qui est et a une direction — mais sans encore de médiation (RAPPORT=5 absent). C'est le changement d'état le plus simple : avant→après. Hegel : le Werden, le devenir comme synthèse de l'être et du néant. Bergson : la durée pure, le flux. Différent de TRANSFORMATION (42) qui ajoute DIFFÉRENCE — le devenir est ici pré-différentiel, une pure trajectoire.",
+  "examples": {
+    "fr": [
+      "devient",
+      "se transforme",
+      "évolue",
+      "va vers"
+    ],
+    "en": [
+      "becomes",
+      "turns into",
+      "moves toward"
+    ],
+    "sa": [
+      "bhavati (il devient)",
+      "gacchati (il va)"
+    ],
+    "de": [
+      "wird (devient — Hegel)"
+    ]
+  },
+  "convergences": [
+    "Hegel — Werden (devenir, synthèse de l'être et du néant)",
+    "Bergson — durée pure (flux temporel non-fragmenté)",
+    "Deleuze — ligne de fuite (devenir sans terme fixe)",
+    "Husserl — protention (être orienté vers le futur immédiat)"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 70,
+  "name": "INTENTION",
+  "name_en": "INTENTION",
+  "name_sa": "cetanā",
+  "type": "molecule",
+  "factors": [
+    2,
+    5,
+    7
+  ],
+  "mask": 13,
+  "level": 2,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "ÊTRE ∧ RAPPORT ∧ ORIENTATION",
+  "imaginary_variant": {
+    "id": "70i",
+    "name": "MOI",
+    "name_en": "SELF",
+    "domain": "iZ",
+    "formula": "INTENTION × i",
+    "notes": "INTENTION auto-référentielle. Le moi = l'intention qui se vise elle-même. Metzinger PSM (phenomenal self-model) : le sujet comme modèle transparent de lui-même. La transparence = l'oubli que c'est imaginaire (i). Le moi agit comme si 70i = 70, comme si l'auto-référence était réelle.",
+    "source": "Metzinger — Being No One (2003)"
+  },
+  "notes": "L'être en relation et orienté. La visée intentionnelle de Husserl : la conscience EST toujours conscience-de-quelque-chose. ÊTRE (présence) + RAPPORT (direction vers un terme) + ORIENTATION (sens de la visée) = l'intentionnalité. 70 ans = une vie intentionnelle accomplie. SANS DIFFÉRENCE (3 absent) = l'intention n'est pas encore différenciée — elle vise sans encore discriminer son objet.",
+  "examples": {
+    "fr": [
+      "intention",
+      "viser",
+      "désir",
+      "espoir",
+      "croyance",
+      "attention"
+    ],
+    "en": [
+      "intention",
+      "aim",
+      "desire",
+      "hope",
+      "belief",
+      "attention"
+    ],
+    "sa": [
+      "cetanā (intention)",
+      "icchā (désir)",
+      "śraddhā (foi/visée)"
+    ],
+    "zh": [
+      "意 (yì) — intention, signification"
+    ]
+  },
+  "convergences": [
+    "Husserl — intentionnalité (tout acte de conscience vise un objet)",
+    "Brentano — intentional inexistence (l'objet immanent à l'acte)",
+    "Metzinger — PSM réel (70) vs MOI phénoménal (70i)",
+    "Wittgenstein II — intention comme usage (l'intention dans la pratique)"
+  ]
+}

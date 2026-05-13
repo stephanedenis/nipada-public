@@ -1,0 +1,43 @@
+{
+  "id": 10,
+  "name": "COMPOSITION",
+  "name_en": "COMPOSITION",
+  "name_sa": "samyoga",
+  "type": "molecule",
+  "factors": [
+    2,
+    5
+  ],
+  "mask": 5,
+  "level": 1,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "ÊTRE ∧ RAPPORT",
+  "notes": "L'être en relation. La composition : deux choses qui forment un ensemble par leur mise en rapport. Être-avec. 10 doigts, base décimale — la composition par excellence. Pas encore orientée (ORIENTATION=7 absent), donc c'est une relation symétrique : A-avec-B = B-avec-A.",
+  "examples": {
+    "fr": [
+      "avec",
+      "ensemble",
+      "composé de",
+      "fait de"
+    ],
+    "en": [
+      "with",
+      "together",
+      "made of"
+    ],
+    "sa": [
+      "saha (avec)",
+      "sākaṃ"
+    ],
+    "zh": [
+      "和 (hé) — ensemble"
+    ]
+  },
+  "convergences": [
+    "Varela — couplage structurel (être-avec dans le couplage)",
+    "Mereologie — partie-tout, composition",
+    "Leibniz — composition des monades",
+    "Piaget — schème de composition (assemblage d'actions)"
+  ]
+}

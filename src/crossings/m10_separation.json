@@ -1,0 +1,44 @@
+{
+  "id": -10,
+  "name": "SÉPARATION",
+  "name_en": "SEPARATION",
+  "name_sa": "viveka",
+  "type": "crossing",
+  "base": 10,
+  "operator": -1,
+  "factors": [
+    2,
+    5
+  ],
+  "mask": 5,
+  "level": 1,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "-(ÊTRE ∧ RAPPORT) = crossing(COMPOSITION)",
+  "notes": "Être sans relation, la solitude absolue, l'isolement existentiel. Là où COMPOSITION=10 encode l'être-en-relation, -10 tranche ce rapport tout en maintenant l'être. L'être séparé, jeté dans le monde sans lien. Heidegger : la Geworfenheit (facticité brute, avant tout rapport). Levinas : le visage de l'Autre qui révèle la séparation radicale.",
+  "crossing_note": "COMPOSITION = ÊTRE × RAPPORT. Son crossing -10 : l'être sans rapport, l'atome solitaire. Distinct de -5 (rupture de rapport) : -10 encode l'état résultant, pas l'acte de rupture.",
+  "examples": {
+    "fr": [
+      "seul",
+      "séparé",
+      "isolé",
+      "solitaire",
+      "exilé"
+    ],
+    "sa": [
+      "viveka (discrimination-séparation)",
+      "kaivalya (isolement libérateur en Sāṃkhya)"
+    ],
+    "de": [
+      "Einsamkeit (solitude)",
+      "Geworfenheit (facticité solitaire)"
+    ]
+  },
+  "convergences": [
+    "Heidegger — Geworfenheit (être-jeté, facticité sans fondement choisi)",
+    "Levinas — séparation radicale (l'Autre est absolument autre, non-composable)",
+    "Sāṃkhya — kaivalya (isolement du Puruṣa pur de la Prakṛti)",
+    "Plotin — la chute (l'âme séparée de l'Un)",
+    "Buber — Ich-Es (relation-objet, non la vraie relation Ich-Du)"
+  ]
+}

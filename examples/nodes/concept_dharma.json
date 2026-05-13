@@ -1,0 +1,98 @@
+{
+  "nipada_id": "concept/dharma",
+  "type": "concept",
+  "version": "§243",
+  "status": "draft",
+
+  "meta": {
+    "name": {
+      "sa": "dharma",
+      "pli": "dhamma",
+      "lzh": "法",
+      "en": "dharma / law / truth",
+      "fr": "dharma / loi / vérité"
+    },
+    "scope": "public",
+    "domain": ["philosophie_indienne", "bouddhisme", "hindouisme", "droit"],
+    "sources": [
+      "Monier-Williams 1899, Sanskrit Dictionary, s.v. dharma",
+      "Conze 1967, Buddhist Thought in India",
+      "Olivelle 1993, The Āśrama System"
+    ],
+    "provenance": {
+      "producer": "manuel",
+      "date": "2026-05-13",
+      "process": "nipada_node_v1"
+    }
+  },
+
+  "semantic": {
+    "mode": "hybrid",
+    "nipada_value": 105,
+    "factors": [3, 5, 7],
+    "names": ["DIFFÉRENCE", "RAPPORT", "ORIENTATION"],
+    "atom_version": "V17",
+    "freq_signature": {
+      "ÊTRE":        0.10,
+      "DIFFÉRENCE":  0.11,
+      "RAPPORT":     0.13,
+      "ORIENTATION": 0.09,
+      "SUJET":       0.09,
+      "TEMPS":       0.04,
+      "MODALITÉ":    0.10,
+      "NOMBRE":      0.02,
+      "ESPACE":      0.03,
+      "OPÉRATION":   0.04,
+      "FONCTION":    0.09,
+      "STRUCTURE":   0.08,
+      "SYMÉTRIE":    0.04,
+      "ÉQUATION":    0.02,
+      "CAUSALITÉ":   0.06,
+      "ÉVÉNEMENT":   0.03,
+      "MENTAL_STATE":0.06
+    },
+    "dominant_molecules": ["molecule/105", "molecule/35", "molecule/42"]
+  },
+
+  "relations": [
+    {
+      "target": "concept/tao",
+      "type": "analogous_to",
+      "weight": 0.65,
+      "source": "inferred",
+      "note": "Deux encodages du principe ordonnateur immanent — dharma (orientation différenciée) ~ tao (orientation pure). Correspondance partielle : ORIENTATION est commun, DIFFÉRENCE absent dans tao."
+    },
+    {
+      "target": "concept/logos",
+      "type": "analogous_to",
+      "weight": 0.60,
+      "source": "hypothetical",
+      "ref": "Staal 1975, The Concept of Metalanguage"
+    },
+    {
+      "target": "tradition/bouddhisme_theravada",
+      "type": "belongs_to",
+      "weight": 0.80,
+      "source": "documented"
+    },
+    {
+      "target": "tradition/brahmanisme",
+      "type": "belongs_to",
+      "weight": 0.80,
+      "source": "documented"
+    },
+    {
+      "target": "language/san",
+      "type": "belongs_to",
+      "weight": 1.0,
+      "source": "documented",
+      "note": "Terme sanskrit ; adapté en pali 'dhamma' dans la tradition bouddhiste du Theravāda"
+    }
+  ],
+
+  "content": {
+    "availability": "none",
+    "reconstructible": false,
+    "stub": false
+  }
+}

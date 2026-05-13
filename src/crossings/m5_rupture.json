@@ -1,0 +1,42 @@
+{
+  "id": -5,
+  "name": "RUPTURE",
+  "name_en": "DISCONNECTION",
+  "name_sa": "viyoga",
+  "type": "crossing",
+  "base": 5,
+  "operator": -1,
+  "factors": [
+    5
+  ],
+  "mask": 4,
+  "level": 0,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "-(RAPPORT) = crossing(RAPPORT)",
+  "notes": "La coupure, la rupture de relation, l'isolement. Là où RAPPORT=5 crée un lien de médiation, -5 tranche ce lien. L'incommensurable au sens fort (pas de rapport possible). La solitude absolue de Levinas : l'il y a avant tout rapport. La brisure de symétrie (Higgs : le vide qui rompt la symétrie pour créer des masses distinctes).",
+  "crossing_note": "Le crossing du RAPPORT n'est pas l'absence de rapport (ce serait 0b0000) mais la rupture active d'un rapport établi. -5 encode le traumatisme, la séparation forcée, la coupure épistémologique (Bachelard).",
+  "examples": {
+    "fr": [
+      "rupture",
+      "coupure",
+      "séparation",
+      "isolement",
+      "déconnexion"
+    ],
+    "sa": [
+      "viyoga (séparation)",
+      "virodha (coupure avec le tout)"
+    ],
+    "fr_lit": [
+      "'Il y a' (Levinas) — la présence sans rapport"
+    ]
+  },
+  "convergences": [
+    "Levinas — l'il y a (présence neutre avant tout rapport éthique)",
+    "Bachelard — rupture épistémologique (la science rompt avec le sens commun)",
+    "Blanchot — l'espace littéraire (l'écriture comme rupture de la communication)",
+    "Bion — attaque contre les liens (destruction des rapports psychiques)",
+    "Higgs — brisure spontanée de symétrie (le vide brise le rapport)"
+  ]
+}

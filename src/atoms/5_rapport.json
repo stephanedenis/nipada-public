@@ -1,0 +1,28 @@
+{
+  "id": 5,
+  "name": "RAPPORT",
+  "name_en": "RELATION",
+  "name_sa": "sambandha",
+  "type": "atom",
+  "factors": [],
+  "mask": 4,
+  "level": 0,
+  "domain": "Z",
+  "status": "confirmed",
+  "peirce": "Tiercéité — médiation, signe, représentation, la relation entre deux termes par un tiers",
+  "jakobson": "sonore/sourd — présence de vibration vocalique (la voix comme médiation sociale)",
+  "dehaene": "connexion synaptique — le réseau comme structure de rapport",
+  "uexkull": "Funktionskreis — le cercle fonctionnel entre Merkmal et Wirkmal (médiation perceptivo-motrice)",
+  "property": "median_prime — médian entre 3 et 7, rôle médiateur structurel dans les produits",
+  "notes": "La médiation. La mise-en-relation. Peirce : la Tiercéité, ce qui fait signe entre deux. Cassirer : la forme symbolique comme rapport entre l'intuition et le concept. Leibniz : la harmonie préétablie qui connecte les monades. Varela : le couplage structurel. L'attention (QK^T dans les transformers) = RAPPORT au carré appliqué à un corpus.",
+  "convergences": [
+    "Peirce — Tiercéité (signe, médiation, représentation)",
+    "Cassirer — forme symbolique (rapport entre intuition et concept)",
+    "Leibniz — harmonie préétablie (médiation entre monades)",
+    "Varela — couplage structurel (médiation organisme/environnement)",
+    "Fillmore — rôle sémantique dans un frame (relation entre participants)",
+    "Wierzbicka NSM — LIKE / AS (similitude, mise en rapport)",
+    "Jakobson — sonore/sourd (la voix comme rapport inter-individuel)",
+    "Transformers — mécanisme d'attention (QK^T = RAPPORT² sur le corpus)"
+  ]
+}

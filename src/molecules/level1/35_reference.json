@@ -1,0 +1,53 @@
+{
+  "id": 35,
+  "name": "RÉFÉRENCE",
+  "name_en": "REFERENCE",
+  "name_sa": "saṃsmaraṇa",
+  "type": "molecule",
+  "factors": [
+    5,
+    7
+  ],
+  "mask": 12,
+  "level": 1,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "RAPPORT ∧ ORIENTATION",
+  "crossing": {
+    "+35": {
+      "name": "MÉMOIRE",
+      "notes": "RÉFÉRENCE vers le passé — la relation orientée vers ce qui a eu lieu. L'ancrage temporel rétrograde."
+    },
+    "-35": {
+      "name": "ANTICIPATION",
+      "notes": "RÉFÉRENCE vers le futur — crossing Spencer-Brown de la MÉMOIRE. La projection vers ce qui n'a pas encore eu lieu. Husserl : protention."
+    }
+  },
+  "notes": "La relation orientée dans le temps. La référence est le lien entre un terme présent et un terme temporellement déplacé. +35 = MÉMOIRE (ancrage au passé, rétention husserlienne). -35 = ANTICIPATION (projection au futur, protention husserlienne). Frege : la référence (Bedeutung) est la relation entre un signe et son objet — mais l'objet peut être dans le passé (mémoire) ou dans le futur (anticipation). La référence est toujours orientée.",
+  "examples": {
+    "fr": [
+      "avant",
+      "après",
+      "se souvient de",
+      "anticipe",
+      "réfère à"
+    ],
+    "en": [
+      "before",
+      "after",
+      "remembers",
+      "anticipates",
+      "refers to"
+    ],
+    "sa": [
+      "smṛti (mémoire)",
+      "āśā (espoir/anticipation)"
+    ]
+  },
+  "convergences": [
+    "Husserl — rétention/protention (les deux modes de la conscience du temps)",
+    "Frege — Bedeutung (référence temporellement située)",
+    "Tulving — mémoire épisodique (voyage mental dans le temps)",
+    "Suddendorf & Corballis — mental time travel (référence temporelle déplacée)"
+  ]
+}

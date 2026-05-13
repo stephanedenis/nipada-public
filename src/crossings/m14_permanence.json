@@ -1,0 +1,44 @@
+{
+  "id": -14,
+  "name": "PERMANENCE",
+  "name_en": "PERMANENCE",
+  "name_sa": "nitya",
+  "type": "crossing",
+  "base": 14,
+  "operator": -1,
+  "factors": [
+    2,
+    7
+  ],
+  "mask": 9,
+  "level": 1,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "-(ÊTRE ∧ ORIENTATION) = crossing(DEVENIR)",
+  "notes": "Ce qui ne change pas, l'être figé, la permanence absolue. Là où DEVENIR=14 encode l'être-orienté-dans-le-changement, -14 efface cette orientation : l'être reste mais ne devient pas. L'éternité de l'instant — le cristal, la pierre, l'immuable. Parménide : l'être est, il ne devient pas. Spinoza : sub specie aeternitatis (vu de l'éternité).",
+  "crossing_note": "DEVENIR = ÊTRE × ORIENTATION. Son crossing -14 : l'être sans orientation, sans flèche du changement. Ce n'est pas le néant (-2) — l'être reste présent. C'est l'immuable : présent mais sans trajectoire.",
+  "examples": {
+    "fr": [
+      "permanent",
+      "immuable",
+      "éternel",
+      "figé",
+      "inchangé"
+    ],
+    "sa": [
+      "nitya (éternel, permanent)",
+      "acala (immobile)",
+      "dhruva (fixe)"
+    ],
+    "gr": [
+      "ἀεί (aei — toujours, éternellement)"
+    ]
+  },
+  "convergences": [
+    "Parménide — l'être immobile (l'être est, le changement est illusion)",
+    "Spinoza — sub specie aeternitatis (la vue éternelle efface le devenir)",
+    "Platon — les Idées (formes immuables, au-delà du devenir sensible)",
+    "Bouddhisme — Ātman (le moi permanent postulé, réfuté par anattā)",
+    "Einstein — bloc univers (passé-présent-futur co-présents, sans devenir)"
+  ]
+}

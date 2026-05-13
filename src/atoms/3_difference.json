@@ -1,0 +1,28 @@
+{
+  "id": 3,
+  "name": "DIFFÉRENCE",
+  "name_en": "DIFFERENCE",
+  "name_sa": "anyatva",
+  "type": "atom",
+  "factors": [],
+  "mask": 2,
+  "level": 0,
+  "domain": "Z",
+  "status": "confirmed",
+  "peirce": "Secondéité dégénérée — contraste sans direction, altérité pure",
+  "jakobson": "continu/discontinu — maintenu vs pulsé (présence de bruit vs silence)",
+  "dehaene": "discrimination perceptuelle — ANS (système numérique approximatif)",
+  "uexkull": "Merkmal de discrimination — chaleur perçue OU odeur butyrique (chez la tique)",
+  "property": "smallest_odd_prime — le plus petit prime impair, contraste minimal avec 2",
+  "notes": "Le contraste non-orienté. La différence avant la relation et avant la direction. Bateson : 'la différence qui fait une différence'. Hegel : la négation interne, le non-A dans le A. Saussure : la valeur par opposition. La différence qui n'a pas encore de sens de traversée.",
+  "convergences": [
+    "Bateson — 'a difference that makes a difference' (Steps to an Ecology of Mind)",
+    "Peirce — Secondéité dégénérée (contraste sans réaction)",
+    "Saussure — valeur négative (le signe défini par ses différences)",
+    "Hegel — négation interne, altérité",
+    "Jakobson — trait binaire phonologique (oppositions distinctives)",
+    "Shannon — bit d'information (unité de distinction)",
+    "Wierzbicka NSM — OTHER / DIFFERENT (primitif universel)",
+    "Uexküll — seuil de discrimination dans tout Umwelt biologique"
+  ]
+}

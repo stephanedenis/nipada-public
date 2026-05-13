@@ -1,0 +1,298 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://nipada.org/schema/schema_signed_v1.json",
+  "title": "NiPaDa Signed Corpus",
+  "description": "Schema for a NiPaDa signed-corpus document (outer wrapper) and its entry objects. Versions v14/v16/v17 all conform to this schema.",
+  "type": "object",
+  "required": ["signed"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Corpus version identifier (e.g. 'v263_clean', 'v280_v16')."
+    },
+    "date": {
+      "type": "string",
+      "description": "ISO 8601 production date.",
+      "format": "date-time"
+    },
+    "description": {
+      "type": "string"
+    },
+    "atoms": {
+      "type": "array",
+      "description": "Ordered list of semantic atom names used in this corpus.",
+      "items": { "type": "string" },
+      "minItems": 14
+    },
+    "n_atoms": {
+      "type": "integer",
+      "minimum": 14
+    },
+    "n_signed": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "signed": {
+      "oneOf": [
+        {
+          "type": "array",
+          "description": "List of signed corpus entries.",
+          "items": { "$ref": "#/$defs/entry" }
+        },
+        {
+          "type": "object",
+          "description": "Dict keyed by local_id (legacy format). Values are entry objects.",
+          "additionalProperties": { "$ref": "#/$defs/entry" }
+        }
+      ]
+    }
+  },
+  "$defs": {
+    "signature": {
+      "type": "object",
+      "description": "Map of atom name → relative frequency weight (L1-normalised, sums to ~1.0).",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0.0,
+        "maximum": 1.0
+      }
+    },
+    "top3": {
+      "type": "array",
+      "description": "Top-3 atoms as [[atom, weight], ...] sorted descending by weight.",
+      "items": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": [
+          { "type": "string" },
+          { "type": "number", "minimum": 0.0, "maximum": 1.0 }
+        ]
+      },
+      "maxItems": 3
+    },
+    "fragment": {
+      "type": "object",
+      "description": "A 500-word text fragment with its SHA-256 hash.",
+      "properties": {
+        "seq":        { "type": "integer", "minimum": 0 },
+        "n_words":    { "type": "integer", "minimum": 0 },
+        "hash":       { "type": "string" },
+        "chapter_id": { "type": ["string", "null"] },
+        "para_start": { "type": ["integer", "null"] },
+        "para_end":   { "type": ["integer", "null"] }
+      },
+      "required": ["seq", "n_words", "hash"]
+    },
+    "entry": {
+      "type": "object",
+      "description": "One signed corpus entry for a single work or collection.",
+      "required": ["graph_node_id"],
+      "properties": {
+        "graph_node_id": {
+          "type": "string",
+          "description": "Canonical identifier in the NiPaDa knowledge graph (always present)."
+        },
+        "local_id": {
+          "type": "string",
+          "description": "Identifier used in file caches and local pipeline (may equal graph_node_id)."
+        },
+        "catalog": {
+          "type": "string",
+          "description": "Catalog identifier the entry belongs to (e.g. 'buddhist_axial', 'indian_axial')."
+        },
+        "tradition_label": {
+          "type": "string",
+          "description": "Upper-case tradition code (e.g. 'BUDDHIST_AXIAL', 'VEDIC')."
+        },
+        "tradition_micro": {
+          "type": "string",
+          "description": "Fine-grained tradition label."
+        },
+        "lang": {
+          "type": "string",
+          "description": "BCP-47 language code of the signed text (e.g. 'eng', 'fra', 'chi').",
+          "minLength": 2
+        },
+        "language_original": {
+          "type": "string",
+          "description": "Language of the original composition (e.g. 'Sanskrit', 'Pali')."
+        },
+        "title_en": {
+          "type": "string"
+        },
+        "title_original": {
+          "type": "string"
+        },
+        "author": {
+          "type": ["string", "null"]
+        },
+        "year": {
+          "type": ["integer", "null"],
+          "description": "Best-estimate composition year (negative = BCE)."
+        },
+        "n_chars": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Character count of the signed text."
+        },
+        "n_words": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Word count of the signed text."
+        },
+        "matched": {
+          "type": "boolean",
+          "description": "True if the entry was matched to a node in the knowledge graph."
+        },
+        "lexicon_version": {
+          "type": "string",
+          "description": "Version tag of the atom lexicon used for signing (e.g. 'v14', 'v212f', 'v280')."
+        },
+        "source": {
+          "type": "string",
+          "description": "Origin of the signed text.",
+          "enum": [
+            "suttacentral",
+            "sacred_texts",
+            "gutenberg",
+            "wikisource",
+            "manual",
+            "other"
+          ]
+        },
+        "url": {
+          "type": "string",
+          "description": "Canonical URL of the signed text.",
+          "format": "uri"
+        },
+        "url_original": {
+          "type": "string",
+          "description": "Source URL at time of ingestion.",
+          "format": "uri"
+        },
+        "url_wayback": {
+          "type": "string",
+          "description": "Internet Archive Wayback URL for provenance."
+        },
+        "sc_uid": {
+          "type": "string",
+          "description": "SuttaCentral UID (SC entries only)."
+        },
+        "corpus_origin": {
+          "type": "string",
+          "description": "Origin tag in the pipeline (e.g. 'v235_sc_collections')."
+        },
+        "ingestion_status": {
+          "type": "string",
+          "description": "Processing status for stub/pending entries.",
+          "enum": ["pending", "partial", "complete", "error"]
+        },
+        "v14_signature": {
+          "$ref": "#/$defs/signature",
+          "description": "V14 (14-atom) L1-normalised semantic signature."
+        },
+        "v14_top3": {
+          "$ref": "#/$defs/top3",
+          "description": "Top-3 atoms of the V14 signature."
+        },
+        "v16_signature": {
+          "$ref": "#/$defs/signature",
+          "description": "V16 (16-atom) L1-normalised semantic signature (adds CAUSALITÉ, ÉVÉNEMENT)."
+        },
+        "v16_top3": {
+          "$ref": "#/$defs/top3",
+          "description": "Top-3 atoms of the V16 signature."
+        },
+        "v17_signature": {
+          "$ref": "#/$defs/signature",
+          "description": "V17 (17-atom) L1-normalised semantic signature (adds MENTAL_STATE)."
+        },
+        "v17_top3": {
+          "$ref": "#/$defs/top3",
+          "description": "Top-3 atoms of the V17 signature."
+        },
+        "fragments": {
+          "type": "array",
+          "description": "List of 500-word text fragments with content hashes.",
+          "items": { "$ref": "#/$defs/fragment" }
+        },
+        "fragments_hash": {
+          "type": "string",
+          "description": "SHA-256 hash of the concatenated fragment hashes (provenance fingerprint)."
+        },
+        "n_fragments": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "structure": {
+          "type": "object",
+          "description": "Text structure metadata (e.g. {\"format\": \"flat\"}).",
+          "properties": {
+            "format": {
+              "type": "string",
+              "enum": ["flat", "hierarchical", "segmented", "collection"]
+            }
+          }
+        },
+        "text_missing": {
+          "type": "boolean",
+          "description": "True if the cached text was unavailable and the signature was projected."
+        },
+        "cache_origin": {
+          "type": "string",
+          "description": "Cache path category used during signing (e.g. 'v263_cache', 'suttacentral_cache', 'projection_no_text')."
+        },
+        "v260_fix": {
+          "type": "boolean",
+          "description": "True if the entry was corrected by the §260 deduplication pass."
+        },
+        "n_chapters_fetched": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of chapter files fetched for this work (§263 patch)."
+        },
+        "source_volumes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "SBE or other volume identifiers contributing text for this entry."
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Direct URL of the first source chapter/file."
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Taxonomy or subject tags."
+        },
+        "script_version": {
+          "type": "string",
+          "description": "Version of the ingestion script that produced this entry."
+        },
+        "signed_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp when this entry was signed."
+        },
+        "signed_n_chars": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Character count actually used for signing (may differ from n_chars for partial ingestion)."
+        },
+        "n_segments": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of logical segments (paragraphs, suttas, etc.)."
+        },
+        "n_words_total": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total word count including un-signed fragments."
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

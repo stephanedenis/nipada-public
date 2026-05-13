@@ -1,0 +1,45 @@
+{
+  "id": 30,
+  "name": "VIE",
+  "name_en": "LIFE",
+  "name_sa": "jīva",
+  "type": "molecule",
+  "factors": [
+    2,
+    3,
+    5
+  ],
+  "mask": 7,
+  "level": 2,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "ÊTRE ∧ DIFFÉRENCE ∧ RAPPORT",
+  "notes": "L'être différencié en relation. L'organisme minimal : une entité qui existe (ÊTRE=2), qui maintient une frontière interne/externe (DIFFÉRENCE=3), et qui entretient des relations avec son environnement (RAPPORT=5). C'est l'autopoïèse de Maturana dans son encodage minimal. 30 ans = une génération biologique. Le sang = le médium qui transporte les différences dans le réseau de relations. SANS ORIENTATION (7 absent) = la vie sans direction temporelle propre — un organisme en équilibre, non encore engagé dans une téléologie.",
+  "examples": {
+    "fr": [
+      "vie",
+      "organisme",
+      "cellule",
+      "sang",
+      "corps"
+    ],
+    "en": [
+      "life",
+      "organism",
+      "living being"
+    ],
+    "sa": [
+      "jīva (être vivant)",
+      "prāṇa (souffle vital)"
+    ],
+    "zh": [
+      "生 (shēng) — vie, naissance"
+    ]
+  },
+  "convergences": [
+    "Maturana & Varela — autopoïèse (organisation minimale du vivant)",
+    "Prigogine — structure dissipative (organisme comme structure hors-équilibre)",
+    "Sānkhya — Sattvas (le principe de clarté et de relation)",
+    "Spinoza — conatus (l'effort du vivant à persévérer dans son être)"
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "system": "nipada",
+  "version": "1.0.0",
+  "date": "2026-04-23",
+  "status": "canonical",
+  "description": "Catalogue maître nipada v1.0 — 34 entrées confirmées + 1 hypothèse",
+  "encoding": {
+    "type": "4-bit bitmask",
+    "bits": 4,
+    "padding": {
+      "mask": 0,
+      "value": 1,
+      "meaning": "produit vide (élément neutre de la multiplication, avant toute distinction)"
+    },
+    "atoms": {
+      "bit0": {
+        "prime": 2,
+        "name": "ÊTRE"
+      },
+      "bit1": {
+        "prime": 3,
+        "name": "DIFFÉRENCE"
+      },
+      "bit2": {
+        "prime": 5,
+        "name": "RAPPORT"
+      },
+      "bit3": {
+        "prime": 7,
+        "name": "ORIENTATION"
+      }
+    },
+    "mask_to_product": {
+      "0": {
+        "nipada_value": 1,
+        "meaning": "PADDING"
+      },
+      "1": {
+        "nipada_value": 2,
+        "meaning": "ÊTRE"
+      },
+      "2": {
+        "nipada_value": 3,
+        "meaning": "DIFFÉRENCE"
+      },
+      "3": {
+        "nipada_value": 6,
+        "meaning": "EXISTENCE"
+      },
+      "4": {
+        "nipada_value": 5,
+        "meaning": "RAPPORT"
+      },
+      "5": {
+        "nipada_value": 10,
+        "meaning": "COMPOSITION"
+      },
+      "6": {
+        "nipada_value": 15,
+        "meaning": "MESURE"
+      },
+      "7": {
+        "nipada_value": 30,
+        "meaning": "VIE"
+      },
+      "8": {
+        "nipada_value": 7,
+        "meaning": "ORIENTATION"
+      },
+      "9": {
+        "nipada_value": 14,
+        "meaning": "DEVENIR"
+      },
+      "10": {
+        "nipada_value": 21,
+        "meaning": "OPPOSITION"
+      },
+      "11": {
+        "nipada_value": 42,
+        "meaning": "TRANSFORMATION"
+      },
+      "12": {
+        "nipada_value": 35,
+        "meaning": "RÉFÉRENCE"
+      },
+      "13": {
+        "nipada_value": 70,
+        "meaning": "INTENTION"
+      },
+      "14": {
+        "nipada_value": 105,
+        "meaning": "TEMPS"
+      },
+      "15": {
+        "nipada_value": 210,
+        "meaning": "INTÉGRATION"
+      }
+    },
+    "popcount_equals_level": true,
+    "operations": {
+      "level": "popcount(mask) — nombre de bits à 1",
+      "subset": "(mask_A & mask_B) == mask_A ⟺ A ⊆ B",
+      "union": "mask_A | mask_B — sur-ensemble (attention : pas le produit direct)",
+      "intersection": "mask_A & mask_B — atomes communs"
+    }
+  },
+  "domains": {
+    "Z_positive": {
+      "description": "Concepts factuels positifs — le domaine principal nipada",
+      "encoding": "mask (4 bits) + sign=+1",
+      "count_v1": 15,
+      "entries": [
+        {
+          "mask": 1,
+          "id": 2,
+          "name": "ÊTRE",
+          "file": "atoms/2_etre.json"
+        },
+        {
+          "mask": 2,
+          "id": 3,
+          "name": "DIFFÉRENCE",
+          "file": "atoms/3_difference.json"
+        },
+        {
+          "mask": 4,
+          "id": 5,
+          "name": "RAPPORT",
+          "file": "atoms/5_rapport.json"
+        },
+        {
+          "mask": 8,
+          "id": 7,
+          "name": "ORIENTATION",
+          "file": "atoms/7_orientation.json"
+        },
+        {
+          "mask": 3,
+          "id": 6,
+          "name": "EXISTENCE",
+          "file": "molecules/level1/6_existence.json"
+        },
+        {
+          "mask": 5,
+          "id": 10,
+          "name": "COMPOSITION",
+          "file": "molecules/level1/10_composition.json"
+        },
+        {
+          "mask": 9,
+          "id": 14,
+          "name": "DEVENIR",
+          "file": "molecules/level1/14_devenir.json"
+        },
+        {
+          "mask": 6,
+          "id": 15,
+          "name": "MESURE",
+          "file": "molecules/level1/15_mesure.json"
+        },
+        {
+          "mask": 10,
+          "id": 21,
+          "name": "OPPOSITION",
+          "file": "molecules/level1/21_opposition.json"
+        },
+        {
+          "mask": 12,
+          "id": 35,
+          "name": "RÉFÉRENCE",
+          "file": "molecules/level1/35_reference.json"
+        },
+        {
+          "mask": 7,
+          "id": 30,
+          "name": "VIE",
+          "file": "molecules/level2/30_vie.json"
+        },
+        {
+          "mask": 11,
+          "id": 42,
+          "name": "TRANSFORMATION",
+          "file": "molecules/level2/42_transformation.json"
+        },
+        {
+          "mask": 13,
+          "id": 70,
+          "name": "INTENTION",
+          "file": "molecules/level2/70_intention.json"
+        },
+        {
+          "mask": 14,
+          "id": 105,
+          "name": "TEMPS",
+          "file": "molecules/level2/105_temps.json"
+        },
+        {
+          "mask": 15,
+          "id": 210,
+          "name": "INTÉGRATION",
+          "file": "molecules/level3/210_integration.json"
+        }
+      ]
+    },
+    "Z_negative": {
+      "description": "Crossings Spencer-Brown — privation, traversée de frontière",
+      "encoding": "mask (4 bits) + sign=-1",
+      "count_v1": 15,
+      "entries": [
+        {
+          "mask": 1,
+          "id": -2,
+          "name": "NÉANT",
+          "file": "crossings/m2_neant.json"
+        },
+        {
+          "mask": 2,
+          "id": -3,
+          "name": "IDENTITÉ",
+          "file": "crossings/m3_identite.json"
+        },
+        {
+          "mask": 4,
+          "id": -5,
+          "name": "RUPTURE",
+          "file": "crossings/m5_rupture.json"
+        },
+        {
+          "mask": 8,
+          "id": -7,
+          "name": "DÉRIVE",
+          "file": "crossings/m7_derive.json"
+        },
+        {
+          "mask": 3,
+          "id": -6,
+          "name": "IRRÉEL",
+          "file": "crossings/m6_irreel.json"
+        },
+        {
+          "mask": 5,
+          "id": -10,
+          "name": "SÉPARATION",
+          "file": "crossings/m10_separation.json"
+        },
+        {
+          "mask": 9,
+          "id": -14,
+          "name": "PERMANENCE",
+          "file": "crossings/m14_permanence.json"
+        },
+        {
+          "mask": 6,
+          "id": -15,
+          "name": "INCOMMENSURABLE",
+          "file": "crossings/m15_incommensurable.json"
+        },
+        {
+          "mask": 10,
+          "id": -21,
+          "name": "PAIX",
+          "file": "crossings/m21_paix.json"
+        },
+        {
+          "mask": 7,
+          "id": -30,
+          "name": "MORT",
+          "file": "crossings/m30_mort.json"
+        },
+        {
+          "mask": 11,
+          "id": -42,
+          "name": "STASE",
+          "file": "crossings/m42_stase.json"
+        },
+        {
+          "mask": 13,
+          "id": -70,
+          "name": "ABANDON",
+          "file": "crossings/m70_abandon.json"
+        },
+        {
+          "mask": 14,
+          "id": -105,
+          "name": "ÉTERNITÉ",
+          "file": "crossings/m105_eternite.json"
+        },
+        {
+          "mask": 12,
+          "id": -35,
+          "name": "ANTICIPATION",
+          "file": "crossings/m35_anticipation.json"
+        },
+        {
+          "mask": 15,
+          "id": -210,
+          "name": "FRAGMENTATION",
+          "file": "crossings/m210_fragmentation.json"
+        }
+      ]
+    },
+    "iZ": {
+      "description": "Auto-références, oxymores productifs, doubles contraintes (Bateson) — ni = molécule n appliquée à elle-même",
+      "encoding": "mask (4 bits) + operator=i",
+      "count_v1": 15,
+      "entries": [
+        {
+          "mask": 1,
+          "id": "2i",
+          "name": "VIDE",
+          "file": "imaginary/2i_vide.json"
+        },
+        {
+          "mask": 2,
+          "id": "3i",
+          "name": "PARADOXE",
+          "file": "imaginary/3i_paradoxe.json"
+        },
+        {
+          "mask": 4,
+          "id": "5i",
+          "name": "RÉCURSION",
+          "file": "imaginary/5i_recursion.json"
+        },
+        {
+          "mask": 8,
+          "id": "7i",
+          "name": "RETOUR",
+          "file": "imaginary/7i_retour.json"
+        },
+        {
+          "mask": 3,
+          "id": "6i",
+          "name": "CONSCIENCE",
+          "file": "imaginary/6i_conscience.json"
+        },
+        {
+          "mask": 5,
+          "id": "10i",
+          "name": "AUTOPOÏÈSE",
+          "file": "imaginary/10i_autopoiese.json"
+        },
+        {
+          "mask": 9,
+          "id": "14i",
+          "name": "CYCLE",
+          "file": "imaginary/14i_cycle.json"
+        },
+        {
+          "mask": 6,
+          "id": "15i",
+          "name": "TRACE",
+          "file": "imaginary/15i_trace.json"
+        },
+        {
+          "mask": 10,
+          "id": "21i",
+          "name": "AMBIVALENCE",
+          "file": "imaginary/21i_ambivalence.json"
+        },
+        {
+          "mask": 12,
+          "id": "35i",
+          "name": "MÉTALANGAGE",
+          "file": "imaginary/35i_metalangage.json"
+        },
+        {
+          "mask": 7,
+          "id": "30i",
+          "name": "INDIVIDUATION",
+          "file": "imaginary/30i_individuation.json"
+        },
+        {
+          "mask": 11,
+          "id": "42i",
+          "name": "APPRENTISSAGE",
+          "file": "imaginary/42i_apprentissage.json"
+        },
+        {
+          "mask": 13,
+          "id": "70i",
+          "name": "MOI",
+          "file": "imaginary/70i_moi.json"
+        },
+        {
+          "mask": 14,
+          "id": "105i",
+          "name": "MÉMOIRE",
+          "file": "imaginary/105i_memoire.json"
+        },
+        {
+          "mask": 15,
+          "id": "210i",
+          "name": "ABSOLU",
+          "file": "imaginary/210i_absolu.json"
+        }
+      ]
+    }
+  },
+  "hypothesis": {
+    "11_causer": {
+      "id": 11,
+      "name": "CAUSER",
+      "file": "atoms/11_causer_HYPOTHESIS.json",
+      "mask": null,
+      "note": "5ème atome hypothétique — hors encodage 4 bits. Requiert confirmation corpus >10000 lemmes × >20 langues."
+    }
+  },
+  "statistics": {
+    "total_confirmed": 45,
+    "z_positive": 15,
+    "z_negative": 15,
+    "imaginary": 15,
+    "hypothesis": 1,
+    "algebra": "Grassmann exterior algebra sur {2, 3, 5, 7}",
+    "completeness": "100% — toutes les 2^4-1 = 15 molécules non-vides + leurs 15 crossings + 15 imaginaires (ni = n×i pour chaque molécule)"
+  },
+  "meta": {
+    "omega_file": "meta/omega.json",
+    "schema_file": "schema.json",
+    "note": "omega est le niveau méta (Tarski) — hors catalogue nipada, jamais facteur."
+  }
+}

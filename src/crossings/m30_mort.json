@@ -1,0 +1,45 @@
+{
+  "id": -30,
+  "name": "MORT",
+  "name_en": "DEATH",
+  "name_sa": "mṛtyu",
+  "type": "crossing",
+  "base": 30,
+  "operator": -1,
+  "factors": [
+    2,
+    3,
+    5
+  ],
+  "mask": 7,
+  "level": 2,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "-(ÊTRE ∧ DIFFÉRENCE ∧ RAPPORT) = crossing(VIE)",
+  "notes": "La mort, l'inertie organique, la cessation du métabolisme. Là où VIE=30 encode l'être-différencié-en-rapport (l'organisme autopoïétique de Maturana), -30 efface ce rapport vital : l'être reste distingué (un cadavre est encore différencié) mais a perdu sa capacité de relation métabolique. La mort biologique au sens précis.",
+  "crossing_note": "VIE = ÊTRE × DIFFÉRENCE × RAPPORT. Son crossing -30 : être et distingué, mais sans rapport vital. La frontière entre vie et mort est ici le rapport (5) : sa présence = autopoïèse ; son crossing = entropie progressive, désorganisation.",
+  "examples": {
+    "fr": [
+      "mort",
+      "cadavre",
+      "inertie",
+      "désintégration",
+      "nécrose"
+    ],
+    "sa": [
+      "mṛtyu (mort)",
+      "maraṇa (processus de mourir)",
+      "jarā-maraṇa (vieillesse-mort)"
+    ],
+    "la": [
+      "mors, mortis"
+    ]
+  },
+  "convergences": [
+    "Maturana — non-autopoïèse (cessation de l'organisation vivante)",
+    "Freud — pulsion de mort, Todestrieb (retour à l'inorganique)",
+    "Schrödinger — entropie biologique (la mort = retour à l'équilibre thermodynamique)",
+    "Derrida — la trace comme mort différée (l'écriture est mort de la voix vive)",
+    "Heidegger — Sein-zum-Tode (l'être-vers-la-mort comme structure du Dasein)"
+  ]
+}

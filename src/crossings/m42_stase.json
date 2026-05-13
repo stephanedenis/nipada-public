@@ -1,0 +1,45 @@
+{
+  "id": -42,
+  "name": "STASE",
+  "name_en": "STASIS",
+  "name_sa": "sthāna",
+  "type": "crossing",
+  "base": 42,
+  "operator": -1,
+  "factors": [
+    2,
+    3,
+    7
+  ],
+  "mask": 11,
+  "level": 2,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "-(ÊTRE ∧ DIFFÉRENCE ∧ ORIENTATION) = crossing(TRANSFORMATION)",
+  "notes": "L'absence de transformation, la cristallisation, l'état figé. Là où TRANSFORMATION=42 encode le changement d'état orienté, -42 efface cette transformation : l'être est différencié et orienté mais sans métabolisme de changement. Le cristal : structure différenciée et orientée (anisotrope) mais sans transformation interne. La stase sociale, l'équilibre thermodynamique d'un système dissipateur.",
+  "crossing_note": "TRANSFORMATION = ÊTRE × DIFFÉRENCE × ORIENTATION. Son crossing -42 : différencié, orienté, mais figé. Distinct de la PERMANENCE (-14 : sans orientation) — ici l'orientation existe mais ne produit pas de transformation. Le cristal a une orientation (axes cristallins) mais ne se transforme pas.",
+  "examples": {
+    "fr": [
+      "stase",
+      "cristallisation",
+      "figement",
+      "équilibre stable",
+      "inertie structurée"
+    ],
+    "sa": [
+      "sthāna (position fixe)",
+      "sthiti (stabilité)",
+      "acalā avasthā (état immobile)"
+    ],
+    "gr": [
+      "στάσις (stasis — arrêt, équilibre, aussi guerre civile)"
+    ]
+  },
+  "convergences": [
+    "Thom — catastrophe évitée (le système reste dans son bassin d'attraction)",
+    "Prigogine — équilibre thermodynamique (hors dissipation, sans transformation)",
+    "Biot — cristallographie (structures orientées sans transformation intrinsèque)",
+    "Marx — réification (les rapports sociaux figés en choses)",
+    "Freud — fixation (le développement psychique bloqué à un stade)"
+  ]
+}

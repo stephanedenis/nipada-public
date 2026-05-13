@@ -1,0 +1,44 @@
+{
+  "id": 6,
+  "name": "EXISTENCE",
+  "name_en": "EXISTENCE",
+  "name_sa": "astitva",
+  "type": "molecule",
+  "factors": [
+    2,
+    3
+  ],
+  "mask": 3,
+  "level": 1,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "ÊTRE ∧ DIFFÉRENCE",
+  "notes": "L'être distingué d'autre chose. La présence déterminée. C'est l'existence factuelle : non pas l'existence pure (ÊTRE=2) mais l'existence comme quelque chose de particulier, distingué du reste. Le 'il y a' de Heidegger. La première affirmation possible dans tout langage. La tique qui détecte la chaleur (ÊTRE=2) ET la distingue du froid (DIFFÉRENCE=3) = 6 = EXISTENCE. Sans 6, on ne peut pas dire 'X existe' — seulement 'être' ou 'différence'.",
+  "examples": {
+    "fr": [
+      "il y a",
+      "existe",
+      "c'est"
+    ],
+    "ar": [
+      "هست (hast)",
+      "وجود (wujud)"
+    ],
+    "sa": [
+      "asti",
+      "bhavati"
+    ],
+    "zh": [
+      "有 (yǒu)"
+    ],
+    "qu": [
+      "kan (être-là en quechua)"
+    ]
+  },
+  "convergences": [
+    "Heidegger — Da-sein (être-là, existence déterminée)",
+    "Frege — Bedeutung (la référence effective, ce qui existe vraiment)",
+    "Russell — quantificateur existentiel ∃x",
+    "Badiou — appartenance (x ∈ E, le fait d'appartenir à un monde)"
+  ]
+}

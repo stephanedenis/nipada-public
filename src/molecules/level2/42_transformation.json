@@ -1,0 +1,50 @@
+{
+  "id": 42,
+  "name": "TRANSFORMATION",
+  "name_en": "TRANSFORMATION",
+  "name_sa": "pariṇāma",
+  "type": "molecule",
+  "factors": [
+    2,
+    3,
+    7
+  ],
+  "mask": 11,
+  "level": 2,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "ÊTRE ∧ DIFFÉRENCE ∧ ORIENTATION",
+  "notes": "L'être différencié et orienté. Le changement d'état : ce qui était A devient non-A dans une direction. FEU = transformateur par excellence (il différencie l'avant/après et oriente vers le haut). MORT = transformation sans retour. SOLEIL = source de transformation orientée. 42 : la 'réponse universelle' de Douglas Adams n'est pas arbitraire — 42 est la structure de toute transformation complète (être + différence + direction). Les 7 catastrophes de Thom sont 7 modes de cette transformation. Sans RAPPORT (5 absent) = transformation qui n'est pas encore une relation — un changement d'état brut.",
+  "examples": {
+    "fr": [
+      "feu",
+      "mort",
+      "naissance",
+      "soleil",
+      "transformation",
+      "cuire"
+    ],
+    "en": [
+      "fire",
+      "death",
+      "sun",
+      "transformation",
+      "cook"
+    ],
+    "sa": [
+      "agni (feu)",
+      "mṛtyu (mort)",
+      "sūrya (soleil)"
+    ],
+    "zh": [
+      "火 (huǒ) — feu",
+      "变 (biàn) — transformer"
+    ]
+  },
+  "convergences": [
+    "Thom — catastrophes (7 modes de transformation structurelle)",
+    "Lévi-Strauss — le cuit et le cru (transformation culturelle = 42)",
+    "Héraclite — le feu comme principe de transformation",
+    "Prigogine — bifurcation (transformation à un point de non-retour)"
+  ]
+}

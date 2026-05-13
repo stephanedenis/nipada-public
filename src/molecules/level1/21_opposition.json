@@ -1,0 +1,44 @@
+{
+  "id": 21,
+  "name": "OPPOSITION",
+  "name_en": "OPPOSITION",
+  "name_sa": "virodha",
+  "type": "molecule",
+  "factors": [
+    3,
+    7
+  ],
+  "mask": 10,
+  "level": 1,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "DIFFÉRENCE ∧ ORIENTATION",
+  "notes": "Le contraste dirigé. L'opposition n'est pas une simple différence (DIFFÉRENCE=3) — c'est une différence qui a un sens, une polarité. Nord/Sud, chaud/froid, avant/arrière. Hegel : l'opposition dialectique (la thèse et l'antithèse ne sont pas symétriques — la synthèse est orientée). Lévi-Strauss : les oppositions binaires mythémiques. La tension qui génère un mouvement.",
+  "examples": {
+    "fr": [
+      "contre",
+      "versus",
+      "opposé à",
+      "contraire"
+    ],
+    "en": [
+      "against",
+      "versus",
+      "opposite",
+      "contrary"
+    ],
+    "sa": [
+      "virodha (opposition)",
+      "pratikūla (contraire)"
+    ],
+    "zh": [
+      "对 (duì) — face à, contre"
+    ]
+  },
+  "convergences": [
+    "Hegel — opposition dialectique (thèse/antithèse orientée)",
+    "Lévi-Strauss — opposition binaire mythémique",
+    "Saussure — opposition paradigmatique (choix entre alternatives)",
+    "Jakobson — corrélation phonologique (paire minimale orientée)"
+  ]
+}

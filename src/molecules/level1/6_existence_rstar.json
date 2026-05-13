@@ -1,0 +1,54 @@
+{
+  "id": 6,
+  "name": "EXISTENCE",
+  "name_en": "EXISTENCE",
+  "name_sa": "astitva",
+  "type": "molecule",
+  "factors": [
+    2,
+    3
+  ],
+  "mask": 3,
+  "level": 1,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "ÊTRE ∧ DIFFÉRENCE",
+  "notes": "L'être distingué d'autre chose.",
+  "rstar_extension": {
+    "degree": 1.0,
+    "degree_semantics": "Prototype Rosch (1975) : l'existence maximale = l'être pleinement distinct, clair et saillant. Degré 0.5 = existence floue (Zadeh 1965). Degré 0.0 = frontière avec le crossing négatif (-6 = non-existence).",
+    "gradient_hypothesis": "Le degré d ∈ [0,1] représente la saillance prototypique du concept dans l'Umwelt d'un agent. d=1 = prototype de la catégorie. d→0 = cas-limite, frontière avec le crossing.",
+    "image_schema": {
+      "lakoff_johnson_1980": "ENTITY schema (dans le sens de Lakoff & Johnson 1980 — Metaphors We Live By)",
+      "notes": "Le degré encode la saillance de l'entité dans l'espace cognitif de l'agent"
+    },
+    "cross_language_variation": {
+      "fr": {
+        "degree": 1.0,
+        "example": "être"
+      },
+      "sa": {
+        "degree": 0.9,
+        "example": "asti (3sg présent de √as)"
+      },
+      "qu": {
+        "degree": 0.7,
+        "notes": "L'existence est moins saillante que le rapport en Quechua — facteur culturel"
+      },
+      "ja": {
+        "degree": 0.8,
+        "notes": "aru/iru — distinction animé/inanimé encode une variation du degré d'existence"
+      }
+    },
+    "pca_test": {
+      "method": "Projection sur axe PC1 de word2vec multilingue — si le degré d encode la composante principale d'un concept dans le corpus, l'hypothèse est validée",
+      "status": "not-run — nécessite corpus multilingue Panini"
+    }
+  },
+  "convergences": [
+    "Heidegger — Dasein (être-là, être distingué du fond)",
+    "Frege — Bedeutung/Sinn — l'existence comme référence stable",
+    "Russell — 'quelque chose qui est F' — quantificateur existentiel",
+    "Badiou — l'Un comme distinction (avant tout compte-pour-un)"
+  ]
+}

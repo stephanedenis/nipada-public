@@ -1,0 +1,44 @@
+{
+  "id": -15,
+  "name": "INCOMMENSURABLE",
+  "name_en": "INCOMMENSURABLE",
+  "name_sa": "amāna",
+  "type": "crossing",
+  "base": 15,
+  "operator": -1,
+  "factors": [
+    3,
+    5
+  ],
+  "mask": 6,
+  "level": 1,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "-(DIFFÉRENCE ∧ RAPPORT) = crossing(MESURE)",
+  "notes": "Hors mesure, l'infini, l'incalculable, l'innombrable. Là où MESURE=15 quantifie la différence par le rapport, -15 efface ce rapport de quantification : la différence subsiste mais ne peut être mesurée. Le sublime de Kant : ce qui dépasse toute mesure. L'infini de Cantor (différence sans rapport fini). L'apeiron d'Anaximandre.",
+  "crossing_note": "MESURE = DIFFÉRENCE × RAPPORT. Son crossing -15 : la différence sans rapport de mesure. Pas l'identité (-3) ni la rupture (-5) — la différence est là mais résiste à toute quantification. Le beau mathématique de Weil : 'la lumière de l'évidence' hors mesure.",
+  "examples": {
+    "fr": [
+      "infini",
+      "incommensurable",
+      "sublime",
+      "innombrable",
+      "indicible (en quantité)"
+    ],
+    "gr": [
+      "ἄπειρον (apeiron — l'indéfini, l'infini, Anaximandre)"
+    ],
+    "sa": [
+      "amāna (sans mesure)",
+      "ananta (sans fin)",
+      "apramāṇa (sans limite)"
+    ]
+  },
+  "convergences": [
+    "Kant — le sublime (ce qui dépasse toute mise en rapport quantitatif)",
+    "Cantor — les infinis (ℵ₀, ℵ₁... différences sans rapport fini commun)",
+    "Anaximandre — apeiron (le principe indéfini, hors toute mesure)",
+    "Levinas — l'Infini de l'Autre (hors toute mesure par le Même)",
+    "Weil (Simone) — la beauté comme lumière d'évidence (non-mesurable)"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 105,
+  "name": "TEMPS",
+  "name_en": "TIME",
+  "name_sa": "kāla",
+  "type": "molecule",
+  "factors": [
+    3,
+    5,
+    7
+  ],
+  "mask": 14,
+  "level": 2,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "DIFFÉRENCE ∧ RAPPORT ∧ ORIENTATION",
+  "notes": "La différence relatée et orientée. Le temps physique : une succession de différences mises en rapport selon une direction. SANS ÊTRE (2 absent) = le temps pur, indépendant de tout observateur particulier. C'est le kāla du Sānkhya : Prakriti (la nature non-manifestée) en tant que flux temporel objectif. La flèche du temps de Boltzmann : l'entropie croît dans la direction de ORIENTATION. 105 = 3 semaines = cycle naturel de durée moyenne. Les 3 atomes {3,5,7} sans ÊTRE = le temps impersonnel, cosmique.",
+  "examples": {
+    "fr": [
+      "temps",
+      "durée",
+      "moment",
+      "époque",
+      "cycle"
+    ],
+    "en": [
+      "time",
+      "duration",
+      "period",
+      "cycle"
+    ],
+    "sa": [
+      "kāla (temps)",
+      "prakriti (nature temporelle)"
+    ],
+    "zh": [
+      "时 (shí) — temps, moment"
+    ]
+  },
+  "convergences": [
+    "Sānkhya — Prakriti (la nature comme flux temporel, 105 = kāla)",
+    "Boltzmann — flèche du temps thermodynamique",
+    "Newton — temps absolu (indépendant des observateurs = sans ÊTRE)",
+    "Einstein — temps relatif (avec ÊTRE = 2×105 = 210, le temps vécu)",
+    "Husserl — temps objectif vs temps vécu (105 vs 70)"
+  ]
+}

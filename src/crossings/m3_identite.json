@@ -1,0 +1,46 @@
+{
+  "id": -3,
+  "name": "IDENTITÉ",
+  "name_en": "IDENTITY",
+  "name_sa": "abheda",
+  "type": "crossing",
+  "base": 3,
+  "operator": -1,
+  "factors": [
+    3
+  ],
+  "mask": 2,
+  "level": 0,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "-(DIFFÉRENCE) = crossing(DIFFÉRENCE)",
+  "notes": "L'indifférencié, la fusion, l'identité absolue. Le crossing de la DIFFÉRENCE efface la distinction. Avant toute séparation. Ce n'est pas 'X est identique à Y' (ce qui présuppose 2 termes distincts) mais l'état d'avant-la-distinction : l'Un de Parménide, le plérôme de Jung, l'état pré-individuel de Simondon.",
+  "crossing_note": "Là où 3 = DIFFÉRENCE sépare, -3 = IDENTITÉ fusionne. Le crossing traverse la frontière de la distinction pour revenir à l'indifférencié. Ce n'est pas une négation ordinaire — c'est le retour à l'état avant-la-marque.",
+  "examples": {
+    "fr": [
+      "identique",
+      "même",
+      "fusion",
+      "indifférencié",
+      "un"
+    ],
+    "gr": [
+      "ταυτόν (tautón — le même)"
+    ],
+    "sa": [
+      "abheda (non-séparation)",
+      "advaita (non-dualité)"
+    ],
+    "zh": [
+      "同 (tóng — même, identique)"
+    ]
+  },
+  "convergences": [
+    "Parménide — l'Un immobile (tout est Un, pas de différence réelle)",
+    "Plotin — l'Un (au-delà de toute distinction)",
+    "Jung — plérôme (état d'avant la distinction du Soi)",
+    "Simondon — pré-individuel (réalité avant toute individuation)",
+    "Advaita Vedānta — advaita (non-dualité : Ātman = Brahman)",
+    "Spencer-Brown — état non-marqué (avant toute forme)"
+  ]
+}

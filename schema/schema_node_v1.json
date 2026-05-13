@@ -1,0 +1,393 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://nipada.org/schema/node_v1.json",
+  "title": "NIPADA Universal Encyclopedic Node",
+  "description": "Modèle de nœud encyclopédique universel NIPADA v1. Couvre tous les types de connaissance — atomes, molécules, crossings, textes, personnes, lieux, événements, concepts, traditions — avec signature sémantique unifiée (encodage premier exact ou distribution fréquentielle V14–V17) et liens typés. Architecture en 5 couches : identité, métadonnées, sémantique, relations, contenu.",
+  "type": "object",
+  "required": ["nipada_id", "type", "version", "status", "semantic"],
+  "additionalProperties": true,
+  "properties": {
+
+    "nipada_id": {
+      "type": "string",
+      "description": "Identifiant canonique global. Format : {type}/{local_id}. local_id en kebab-case, minuscules, ASCII + chiffres + tirets/underscores. Exceptions : 'atom/2', 'molecule/195', 'crossing/-6' utilisent l'entier prime directement.",
+      "pattern": "^[a-z][a-z_]*/[-a-z0-9][a-z0-9_.\\-]*$",
+      "examples": [
+        "text/aristotle_nicomachean_ethics",
+        "atom/2",
+        "molecule/195",
+        "crossing/-6",
+        "person/panini",
+        "place/varanasi",
+        "concept/dharma",
+        "tradition/stoicism",
+        "period/axial_age",
+        "language/san"
+      ]
+    },
+
+    "type": {
+      "type": "string",
+      "description": "Catégorie ontologique du nœud. Les types 'atom', 'molecule', 'crossing' correspondent aux unités du système nipada/src. Les autres types couvrent la couche encyclopédique.",
+      "enum": [
+        "atom",
+        "molecule",
+        "crossing",
+        "text",
+        "person",
+        "place",
+        "event",
+        "language",
+        "concept",
+        "tradition",
+        "period",
+        "domain",
+        "image",
+        "dataset",
+        "tool"
+      ]
+    },
+
+    "version": {
+      "type": "string",
+      "description": "Version encyclopédique du nœud. Format libre. Référence interne conseillée : '§NNN' ou 'vNNN-label'. Ex: '§243', 'v1.0', 'v125-causality_4typed'."
+    },
+
+    "status": {
+      "type": "string",
+      "description": "État de validation du nœud.",
+      "enum": ["canonical", "draft", "deprecated", "hypothetical"]
+    },
+
+    "meta": {
+      "$ref": "#/$defs/meta"
+    },
+
+    "semantic": {
+      "$ref": "#/$defs/semantic"
+    },
+
+    "relations": {
+      "type": "array",
+      "description": "Liens typés vers d'autres nœuds NIPADA. Graphe orienté pondéré.",
+      "items": {
+        "$ref": "#/$defs/relation"
+      }
+    },
+
+    "content": {
+      "$ref": "#/$defs/content"
+    }
+
+  },
+
+  "$defs": {
+
+    "meta": {
+      "type": "object",
+      "description": "Métadonnées structurantes. Clés recommandées selon le type de nœud, extensibles librement.",
+      "properties": {
+
+        "name": {
+          "type": "object",
+          "description": "Noms multilingues. Clé = code ISO 639-1 (2 lettres) ou 639-3 (3 lettres). Ex: {'fr': 'Éthique à Nicomaque', 'grc': 'Ηθικά Νικομάχεια', 'en': 'Nicomachean Ethics'}.",
+          "additionalProperties": { "type": "string" }
+        },
+
+        "scope": {
+          "type": "string",
+          "description": "Visibilité du nœud dans l'architecture overlay.",
+          "enum": ["public", "private", "confidential"],
+          "default": "public"
+        },
+
+        "domain": {
+          "description": "Domaine(s) de connaissance. Chaîne unique ou liste. Ex: 'éthique', ['mathématiques', 'physique'].",
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" } }
+          ]
+        },
+
+        "sources": {
+          "type": "array",
+          "description": "Références bibliographiques sources. Format libre (citation courte conseillée).",
+          "items": { "type": "string" }
+        },
+
+        "provenance": {
+          "type": "object",
+          "description": "Provenance machine : qui a produit ce nœud, quand, via quel processus.",
+          "properties": {
+            "producer": { "type": "string", "description": "Script, agent ou auteur ayant produit ce nœud." },
+            "date":     { "type": "string", "format": "date", "description": "Date ISO 8601 de production." },
+            "process":  { "type": "string", "description": "Processus de production (ex: 'nipada_resign_v280', 'manuel')." }
+          },
+          "additionalProperties": true
+        }
+
+      },
+      "additionalProperties": true
+    },
+
+    "semantic": {
+      "type": "object",
+      "description": "Représentation sémantique NIPADA. Discriminée par 'mode'. Mode 'exact' : valeur prime entière (atomes, molécules, crossings). Mode 'distributed' : distribution fréquentielle sur V14–V17 (textes, personnes, lieux). Mode 'hybrid' : les deux (concepts naturels, traditions).",
+      "required": ["mode"],
+      "oneOf": [
+
+        {
+          "title": "exact",
+          "description": "Encodage premier exact. Pour types atom, molecule, crossing. La valeur nipada est le produit des primes des atomes constituants.",
+          "properties": {
+            "mode":         { "type": "string", "const": "exact" },
+            "nipada_value": {
+              "type": "integer",
+              "description": "Produit des primes constituantes. Ex: 195 = 3×5×13 = DIFFÉRENCE×RAPPORT×TEMPS. Valeurs négatives pour les crossings (domaine Z-)."
+            },
+            "factors": {
+              "type": "array",
+              "description": "Primes constituantes en ordre croissant. Ex: [3, 5, 13].",
+              "items": { "type": "integer", "minimum": 2 },
+              "minItems": 0
+            },
+            "names": {
+              "type": "array",
+              "description": "Noms des atomes dans le même ordre que 'factors'. Ex: ['DIFFÉRENCE', 'RAPPORT', 'TEMPS'].",
+              "items": { "type": "string" }
+            },
+            "formula": {
+              "type": "string",
+              "description": "Expression logique conjonctive. Ex: 'DIFFÉRENCE ∧ RAPPORT ∧ TEMPS'. Pour crossings : préfixer '¬' devant la formule positive."
+            },
+            "level": {
+              "type": "integer",
+              "description": "Niveau de complexité = nombre d'atomes = popcount(mask). 0 pour PADDING (value=1), 1 pour un atome seul.",
+              "minimum": 0
+            },
+            "domain": {
+              "type": "string",
+              "description": "Domaine algébrique. Z+ : positifs (atomes + molécules). Z- : crossings Spencer-Brown. Z_imag : extensions complexes. Z_ext : domaines étendus futurs.",
+              "enum": ["Z+", "Z-", "Z_imag", "Z_ext"]
+            },
+            "mask": {
+              "type": "integer",
+              "description": "Bitmask 4 bits sur les 4 atomes primordiaux (ÊTRE=bit0, DIFFÉRENCE=bit1, RAPPORT=bit2, ORIENTATION=bit3). Optionnel : seulement pour les molécules du système compact nipada/src.",
+              "minimum": 0,
+              "maximum": 15
+            }
+          },
+          "required": ["mode", "nipada_value", "factors", "names", "formula", "level", "domain"],
+          "additionalProperties": false
+        },
+
+        {
+          "title": "distributed",
+          "description": "Distribution fréquentielle sur les atomes V14–V17. Pour types text, person, place, event, dataset. Compatible avec schema_signed_v1.",
+          "properties": {
+            "mode": { "type": "string", "const": "distributed" },
+            "atom_version": {
+              "type": "string",
+              "description": "Version du vocabulaire atomique utilisé pour la signature. Ex: 'V17' (17 atomes), 'V16' (16), 'V14' (14).",
+              "pattern": "^V[0-9]+$"
+            },
+            "freq_signature": {
+              "$ref": "#/$defs/freq_signature"
+            },
+            "dominant_molecules": {
+              "type": "array",
+              "description": "Molécules dominantes identifiées dans ce nœud. Liste de nipada_id ou noms de molécules. Ex: ['molecule/42', 'INTENTION'].",
+              "items": { "type": "string" }
+            },
+            "nipada_value_approx": {
+              "type": "integer",
+              "description": "Valeur nipada approchée : produit des 3 atomes les plus fréquents. Index de recherche rapide, non canonique — ne pas utiliser comme identifiant."
+            }
+          },
+          "required": ["mode", "atom_version", "freq_signature"],
+          "additionalProperties": false
+        },
+
+        {
+          "title": "hybrid",
+          "description": "Encodage mixte : valeur prime exacte pour le concept noyau + distribution fréquentielle sur ses occurrences dans le corpus. Pour types concept, tradition, language, period.",
+          "properties": {
+            "mode":         { "type": "string", "const": "hybrid" },
+            "nipada_value": {
+              "type": "integer",
+              "description": "Valeur prime du concept noyau."
+            },
+            "factors": {
+              "type": "array",
+              "items": { "type": "integer", "minimum": 2 }
+            },
+            "names": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "atom_version": {
+              "type": "string",
+              "pattern": "^V[0-9]+$"
+            },
+            "freq_signature": {
+              "$ref": "#/$defs/freq_signature"
+            },
+            "dominant_molecules": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          },
+          "required": ["mode", "nipada_value", "factors", "names", "atom_version", "freq_signature"],
+          "additionalProperties": false
+        }
+
+      ]
+    },
+
+    "freq_signature": {
+      "type": "object",
+      "description": "Distribution de fréquence sur les atomes. L1-normalisée : somme des valeurs ≈ 1.0. Clés = noms d'atomes conformes à atom_version. Compatible avec $defs/signature dans schema_signed_v1.json.",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0.0,
+        "maximum": 1.0
+      }
+    },
+
+    "relation": {
+      "type": "object",
+      "description": "Lien typé orienté vers un autre nœud NIPADA. Graphe encyclopédique.",
+      "required": ["target", "type", "source"],
+      "properties": {
+
+        "target": {
+          "type": "string",
+          "description": "nipada_id du nœud cible."
+        },
+
+        "type": {
+          "type": "string",
+          "description": "Catégorie du lien. Vocabulaire contrôlé. Groupes : création (authored_by…), généalogie (derived_from…), école (school_of…), structure (part_of…), espace-temps (located_in…), sémantique (analogous_to…), causalité (causes / caused_by — combiner avec causal_category), influence (influenced_by / influenced).",
+          "enum": [
+            "authored_by",
+            "translated_by",
+            "compiled_by",
+            "edited_by",
+            "derived_from",
+            "cites",
+            "critiques",
+            "responds_to",
+            "inspired_by",
+            "school_of",
+            "contemporary_with",
+            "student_of",
+            "teacher_of",
+            "part_of",
+            "belongs_to",
+            "instantiates",
+            "subsumes",
+            "located_in",
+            "dated_in",
+            "occurs_during",
+            "analogous_to",
+            "opposes",
+            "equivalent_to",
+            "parallel_to",
+            "causes",
+            "caused_by",
+            "influenced_by",
+            "influenced"
+          ]
+        },
+
+        "causal_category": {
+          "type": "string",
+          "description": "Sous-type de causalité (§125 causality_4typed). Requis si type est 'causes' ou 'caused_by'. logique = implication déductive (⊢). physique = mécanisme naturel. teleologique = finalité/intention. stochastique = corrélation probabiliste.",
+          "enum": ["logique", "physique", "teleologique", "stochastique"]
+        },
+
+        "weight": {
+          "type": "number",
+          "description": "Force du lien [0, 1]. 1.0 = certain/documenté. 0.5–0.9 = probable. < 0.5 = hypothétique.",
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+
+        "source": {
+          "type": "string",
+          "description": "Mode d'établissement du lien. documented = référence explicite. inferred = déduction éditoriale. hypothetical = hypothèse non vérifiée. computed = calcul automatique (ex: similarité de signature).",
+          "enum": ["documented", "inferred", "hypothetical", "computed"]
+        },
+
+        "ref":  { "type": "string", "description": "Référence bibliographique support du lien. Format libre (citation courte)." },
+        "note": { "type": "string", "description": "Note libre sur le lien." }
+
+      },
+      "additionalProperties": false
+    },
+
+    "content": {
+      "type": "object",
+      "description": "Couche contenu reconstituable. Optionnelle. Absente si le nœud est purement sémantique (atom, molecule) ou si le contenu est entièrement dans un repo overlay privé.",
+      "required": ["availability"],
+      "properties": {
+
+        "availability": {
+          "type": "string",
+          "description": "Statut d'accès au contenu source. public_domain = domaine public (CC0 ou équivalent). open_access = accès libre sous licence. private = contenu dans repo overlay privé. confidential = accès restreint. none = contenu non stocké.",
+          "enum": ["public_domain", "open_access", "private", "confidential", "none"]
+        },
+
+        "license": {
+          "type": "string",
+          "description": "Identifiant SPDX de licence. Ex: 'CC0-1.0', 'CC-BY-4.0', 'CC-BY-SA-4.0'."
+        },
+
+        "source_edition": {
+          "type": "string",
+          "description": "Édition ou corpus source de référence. Ex: 'Bekker 1831 / Ross 1908 (EN)', 'PTS Pali Canon 1995'."
+        },
+
+        "language": {
+          "type": "string",
+          "description": "Code ISO 639-1/3 de la langue source principale. Ex: 'grc', 'san', 'lzh', 'fr'."
+        },
+
+        "reconstructible": {
+          "type": "boolean",
+          "description": "True si le contenu source peut être reconstitué fidèlement à partir des fragments stockés dans ce nœud (analogie PaniniFS : reconstruction depuis la représentation sémantique)."
+        },
+
+        "fragments": {
+          "type": "array",
+          "description": "Fragments textuels indexés avec valeur nipada locale. Granularité libre : phrase, paragraphe, section, passage clé.",
+          "items": {
+            "type": "object",
+            "required": ["id"],
+            "properties": {
+              "id":           { "type": "string",  "description": "Identifiant local du fragment. Ex: 'NE_1094a', 'sec_3_2'." },
+              "text":         { "type": "string",  "description": "Texte brut du fragment." },
+              "lang":         { "type": "string",  "description": "Code ISO 639 si différent de content.language." },
+              "nipada_value": { "type": "integer", "description": "Valeur nipada locale du fragment (molécule dominante)." },
+              "sha256":       { "type": "string",  "description": "Hash SHA-256 du fragment (hex 64 chars).", "pattern": "^[0-9a-f]{64}$" }
+            },
+            "additionalProperties": false
+          }
+        },
+
+        "overlay_repo": {
+          "type": ["string", "null"],
+          "description": "Repo GitHub privé hébergeant le contenu dans l'architecture overlay. Format 'owner/repo'. Null si le contenu est public ou absent."
+        },
+
+        "stub": {
+          "type": "boolean",
+          "description": "True si ce nœud est un placeholder public pointant vers un overlay privé. Le nœud stub est publié dans nipada-public ; le contenu réel est dans overlay_repo."
+        }
+
+      },
+      "additionalProperties": false
+    }
+
+  }
+}

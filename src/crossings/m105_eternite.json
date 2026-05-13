@@ -1,0 +1,47 @@
+{
+  "id": -105,
+  "name": "ÉTERNITÉ",
+  "name_en": "ETERNITY",
+  "name_sa": "akāla",
+  "type": "crossing",
+  "base": 105,
+  "operator": -1,
+  "factors": [
+    3,
+    5,
+    7
+  ],
+  "mask": 14,
+  "level": 2,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "-(DIFFÉRENCE ∧ RAPPORT ∧ ORIENTATION) = crossing(TEMPS)",
+  "notes": "Hors temps, atemporal, le présent pur, l'éternité. Là où TEMPS=105 encode la durée mesurée (différence relatée et orientée), -105 efface ce rapport temporel : les différences existent, l'orientation existe, mais sans rapport de durée entre elles. L'instant éternel de Boèce (nunc stans). Le monde des Idées de Platon : les formes existent dans un présent éternel, sans durée.",
+  "crossing_note": "TEMPS = DIFFÉRENCE × RAPPORT × ORIENTATION. Son crossing -105 : différences et orientation sans rapport de durée = l'éternité atemporale. Distinct de la PERMANENCE (-14 : un être sans devenir) — ici c'est l'absence de mesure temporelle entre événements différents.",
+  "examples": {
+    "fr": [
+      "éternité",
+      "atemporal",
+      "intemporel",
+      "présent éternel",
+      "hors-temps"
+    ],
+    "sa": [
+      "akāla (hors temps)",
+      "nitya (éternel)",
+      "kālatīta (qui transcende le temps)"
+    ],
+    "la": [
+      "nunc stans (Boèce — le maintenant permanent)",
+      "aeternitas"
+    ]
+  },
+  "convergences": [
+    "Boèce — nunc stans (Dieu voit tout dans un présent éternel sans durée)",
+    "Platon — monde des Idées (formes atemporelles)",
+    "Spinoza — sub specie aeternitatis (voir les choses sans leur durée)",
+    "Kant — l'espace-temps comme formes a priori (l'éternité est hors schème temporel)",
+    "McTaggart — série B (relations avant/après sans présent dynamique)",
+    "Barbour — l'univers comme bloc de configurations (pas de temps réel)"
+  ]
+}

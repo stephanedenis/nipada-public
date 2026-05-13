@@ -1,0 +1,45 @@
+{
+  "id": 15,
+  "name": "MESURE",
+  "name_en": "MEASURE",
+  "name_sa": "māna",
+  "type": "molecule",
+  "factors": [
+    3,
+    5
+  ],
+  "mask": 6,
+  "level": 1,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "DIFFÉRENCE ∧ RAPPORT",
+  "notes": "La différence mise en rapport : la mesure. Savoir combien une chose diffère d'une autre — pas qualitativement (c'est DIFFÉRENCE=3 seul) mais relativement (par rapport à une unité). 15 = quart d'heure, module naturel de mesure du temps. La comparaison : A est comme B à tel degré. Wierzbicka : LIKE/AS (le primitive de la similitude comparative). Jakobson : deux traits distinctifs en relation = la combinaison minimale qui crée un phonème.",
+  "examples": {
+    "fr": [
+      "comme",
+      "autant que",
+      "à peu près",
+      "mesure",
+      "proportion"
+    ],
+    "en": [
+      "like",
+      "as much as",
+      "measure",
+      "degree"
+    ],
+    "sa": [
+      "yathā (comme, à la mesure de)",
+      "māna (mesure)"
+    ],
+    "zh": [
+      "像 (xiàng) — ressembler à"
+    ]
+  },
+  "convergences": [
+    "Wierzbicka NSM — LIKE / AS (primitive de similitude)",
+    "Jakobson — combinaison de traits distinctifs (mesure phonologique)",
+    "Rosch — prototype et degrés de typicalité (mesure de similarité)",
+    "Frege — concept comme fonction (mappage différence → rapport)"
+  ]
+}

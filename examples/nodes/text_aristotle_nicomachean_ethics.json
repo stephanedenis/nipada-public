@@ -1,0 +1,112 @@
+{
+  "nipada_id": "text/aristotle_nicomachean_ethics",
+  "type": "text",
+  "version": "§243",
+  "status": "draft",
+
+  "meta": {
+    "name": {
+      "grc": "Ηθικά Νικομάχεια",
+      "la": "Ethica Nicomachea",
+      "en": "Nicomachean Ethics",
+      "fr": "Éthique à Nicomaque"
+    },
+    "scope": "public",
+    "domain": ["éthique", "philosophie_politique"],
+    "sources": ["Bekker 1831", "Ross 1908 (EN)", "Tricot 1959 (FR)"],
+    "provenance": {
+      "producer": "manuel",
+      "date": "2026-05-13",
+      "process": "nipada_node_v1"
+    }
+  },
+
+  "semantic": {
+    "mode": "distributed",
+    "atom_version": "V17",
+    "freq_signature": {
+      "ÊTRE":        0.08,
+      "DIFFÉRENCE":  0.07,
+      "RAPPORT":     0.14,
+      "ORIENTATION": 0.06,
+      "SUJET":       0.12,
+      "TEMPS":       0.05,
+      "MODALITÉ":    0.09,
+      "NOMBRE":      0.02,
+      "ESPACE":      0.02,
+      "OPÉRATION":   0.03,
+      "FONCTION":    0.08,
+      "STRUCTURE":   0.06,
+      "SYMÉTRIE":    0.02,
+      "ÉQUATION":    0.02,
+      "CAUSALITÉ":   0.08,
+      "ÉVÉNEMENT":   0.04,
+      "MENTAL_STATE":0.12
+    },
+    "dominant_molecules": ["molecule/70", "molecule/2145", "molecule/30"],
+    "nipada_value_approx": 770
+  },
+
+  "relations": [
+    {
+      "target": "person/aristotle",
+      "type": "authored_by",
+      "weight": 1.0,
+      "source": "documented"
+    },
+    {
+      "target": "place/athenai",
+      "type": "located_in",
+      "weight": 0.90,
+      "source": "documented"
+    },
+    {
+      "target": "period/antiquite_classique_b",
+      "type": "dated_in",
+      "weight": 1.0,
+      "source": "documented",
+      "ref": "Ross 1923, Introduction"
+    },
+    {
+      "target": "tradition/peripateticism",
+      "type": "belongs_to",
+      "weight": 0.95,
+      "source": "documented"
+    },
+    {
+      "target": "text/plato_republic",
+      "type": "critiques",
+      "causal_category": "logique",
+      "weight": 0.80,
+      "source": "documented",
+      "ref": "NE 1095a, 1104b"
+    },
+    {
+      "target": "text/aristotle_politics",
+      "type": "derived_from",
+      "causal_category": "teleologique",
+      "weight": 0.90,
+      "source": "documented",
+      "note": "NE X.9 annonce explicitement la Politique comme continuité"
+    }
+  ],
+
+  "content": {
+    "availability": "public_domain",
+    "license": "CC0-1.0",
+    "source_edition": "Bekker 1831 / Ross 1908 (EN) / Tricot 1959 (FR)",
+    "language": "grc",
+    "reconstructible": false,
+    "fragments": [
+      {
+        "id": "NE_1094a",
+        "text": "Πᾶσα τέχνη καὶ πᾶσα μέθοδος, ὁμοίως δὲ πρᾶξίς τε καὶ προαίρεσις, ἀγαθοῦ τινὸς ἐφίεσθαι δοκεῖ",
+        "lang": "grc",
+        "nipada_value": 70,
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "overlay_repo": null,
+    "stub": false
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "nipada_id": "molecule/195",
+  "type": "molecule",
+  "version": "§103",
+  "status": "canonical",
+
+  "meta": {
+    "name": {
+      "fr": "CAUSALITÉ",
+      "en": "CAUSALITY",
+      "sa": "kārana",
+      "la": "causalitas"
+    },
+    "scope": "public",
+    "domain": "philosophie",
+    "sources": ["molecules_causales.json §103", "causality_4typed_v125.json §125"],
+    "provenance": {
+      "producer": "manuel",
+      "date": "2026-05-13",
+      "process": "nipada_src_v1"
+    }
+  },
+
+  "semantic": {
+    "mode": "exact",
+    "nipada_value": 195,
+    "factors": [3, 5, 13],
+    "names": ["DIFFÉRENCE", "RAPPORT", "TEMPS"],
+    "formula": "DIFFÉRENCE ∧ RAPPORT ∧ TEMPS",
+    "level": 3,
+    "domain": "Z+"
+  },
+
+  "relations": [
+    {
+      "target": "molecule/55",
+      "type": "subsumes",
+      "weight": 0.70,
+      "source": "documented",
+      "note": "LIEN_GÉNÉALOGIQUE (RAPPORT×SUJET=55) est une causalité sans DIFFÉRENCE explicite"
+    },
+    {
+      "target": "molecule/2145",
+      "type": "derived_from",
+      "weight": 1.0,
+      "source": "documented",
+      "note": "CAUSALITÉ_DIFFÉRENCIÉE = CAUSALITÉ + SUJET (195×11=2145)"
+    },
+    {
+      "target": "atom/3",
+      "type": "part_of",
+      "weight": 1.0,
+      "source": "documented"
+    },
+    {
+      "target": "atom/5",
+      "type": "part_of",
+      "weight": 1.0,
+      "source": "documented"
+    },
+    {
+      "target": "atom/13",
+      "type": "part_of",
+      "weight": 1.0,
+      "source": "documented"
+    }
+  ]
+}

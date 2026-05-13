@@ -1,0 +1,45 @@
+{
+  "id": -21,
+  "name": "PAIX",
+  "name_en": "PEACE",
+  "name_sa": "śānti",
+  "type": "crossing",
+  "base": 21,
+  "operator": -1,
+  "factors": [
+    3,
+    7
+  ],
+  "mask": 10,
+  "level": 1,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "-(DIFFÉRENCE ∧ ORIENTATION) = crossing(OPPOSITION)",
+  "notes": "L'absence de contraste orienté, la paix, l'harmonie, l'accord. Là où OPPOSITION=21 encode le conflit (différence orientée = combat), -21 efface l'orientation de ce conflit : la différence subsiste mais sans direction combattante. Le wu wei de Lao Zi : l'action sans opposition. Le nirvāṇa bouddhiste : cessation de la tension directionnelle. La résilience (différences coexistantes sans hiérarchie directionnelle).",
+  "crossing_note": "OPPOSITION = DIFFÉRENCE × ORIENTATION. Son crossing -21 : la différence sans orientation conflictuelle. Ce n'est pas l'identité (-3 — pas de différence) mais la pluralité en paix. La différence comme richesse et non comme combat.",
+  "examples": {
+    "fr": [
+      "paix",
+      "harmonie",
+      "accord",
+      "coexistence",
+      "non-violence"
+    ],
+    "sa": [
+      "śānti (paix)",
+      "ahiṃsā (non-violence)",
+      "sāmarasya (harmonie des saveurs)"
+    ],
+    "zh": [
+      "和 (hé — harmonie)",
+      "平 (píng — paix, équilibre)"
+    ]
+  },
+  "convergences": [
+    "Lao Zi — wu wei (non-action, absence d'opposition directionnelle)",
+    "Bouddhisme — nirvāṇa (cessation du saṃsāra = cessation de l'orientation-conflit)",
+    "Gandhi — ahiṃsā (non-violence active, différence sans opposition)",
+    "Héraclite (inversé) — l'harmonie cachée (la guerre comme père de toutes choses → son crossing = la paix)",
+    "Leibniz — harmonie préétablie (différences sans conflit réel)"
+  ]
+}

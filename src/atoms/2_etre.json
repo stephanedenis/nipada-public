@@ -1,0 +1,28 @@
+{
+  "id": 2,
+  "name": "ÊTRE",
+  "name_en": "BEING",
+  "name_sa": "sat",
+  "type": "atom",
+  "factors": [],
+  "mask": 1,
+  "level": 0,
+  "domain": "Z",
+  "status": "confirmed",
+  "peirce": "Priméité — qualité pure, avant toute relation",
+  "jakobson": "compact/diffuse — présence vs absence de formants",
+  "dehaene": "thatness — perception de présence sans discrimination",
+  "uexkull": "présence perçue dans tout Umwelt biologique",
+  "property": "unique_even_prime — la parité de 2 permet le test O(1) : si pair → concept existentiel",
+  "notes": "Le seul atome dont l'assignation est mathématiquement non-arbitraire. 2 est le seul nombre premier pair. Tout encodage nipada pair contient ÊTRE. Cela correspond à la Priméité de Peirce : la qualité avant la relation, l'existence avant la détermination. Spinoza : la substance qui persiste. Wheeler : l'It avant le Bit.",
+  "convergences": [
+    "Peirce — Priméité (qualité pure)",
+    "Spinoza — substance unique (Deus sive Natura)",
+    "Wheeler — It from Bit (la présence avant la mesure)",
+    "Husserl — hylé (matière intentionnelle brute)",
+    "Wierzbicka NSM — EXIST (primitif universel le plus robuste)",
+    "Jakobson — axe compact/diffuse (présence vs absence de formants)",
+    "Dehaene — subitizing (1 item perçu sans comptage)",
+    "Uexküll — Merkmal (signal de présence dans tout Umwelt)"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": -2,
+  "name": "NÉANT",
+  "name_en": "NOTHINGNESS",
+  "name_sa": "śūnya",
+  "type": "crossing",
+  "base": 2,
+  "operator": -1,
+  "factors": [
+    2
+  ],
+  "mask": 1,
+  "level": 0,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "-(ÊTRE) = crossing(ÊTRE)",
+  "notes": "Le non-être, l'absence pure, le vide. Pas la négation logique ordinaire mais le crossing de Spencer-Brown de la présence pure (ÊTRE=2). Le zéro ontologique. En mathématiques : l'ensemble vide ∅, avant tout contenu. En physique quantique : le vide de Dirac (plein de potentialités mais sans actualisation). Distinct du padding 0b0000 : -2 est la présence de l'absence, le vide actif.",
+  "crossing_note": "Spencer-Brown : le crossing de la forme primaire. Marquer le vide. -2 n'est pas 'il n'y a pas d'être' (absurde) mais 'l'être s'est retiré' — la mort, l'absence, le manque ressenti.",
+  "examples": {
+    "fr": [
+      "néant",
+      "vide",
+      "rien",
+      "mort",
+      "absence"
+    ],
+    "de": [
+      "Nichts (Heidegger)",
+      "Nichtigkeit"
+    ],
+    "sa": [
+      "śūnya",
+      "abhāva (non-présence)"
+    ],
+    "zh": [
+      "無 (wú — non-être taoïste)"
+    ],
+    "ja": [
+      "無 (mu — non-être zen)"
+    ]
+  },
+  "convergences": [
+    "Heidegger — das Nichts (l'angoisse révèle le néant)",
+    "Sartre — le néant (L'Être et le Néant : la conscience est trou dans l'être)",
+    "Nagarjuna — śūnyatā (le vide comme absence d'essence propre)",
+    "Lao Zi — wu (無, le vide actif qui permet l'usage)",
+    "Badiou — l'ensemble vide ∅ (fondement sans contenu)",
+    "Dirac — vide quantique (mer de Dirac, potentialités non-actualisées)"
+  ]
+}

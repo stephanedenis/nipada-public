@@ -1,0 +1,62 @@
+{
+  "id": 210,
+  "name": "INTÉGRATION",
+  "name_en": "INTEGRATION",
+  "name_sa": "pūrṇatā",
+  "type": "molecule",
+  "factors": [
+    2,
+    3,
+    5,
+    7
+  ],
+  "mask": 15,
+  "level": 3,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "ÊTRE ∧ DIFFÉRENCE ∧ RAPPORT ∧ ORIENTATION",
+  "notes": "L'intégration complète : tous les atomes présents. L'être différencié, mis en rapport et orienté. C'est le niveau maximal de complexité de niveau 1 dans l'algèbre de Grassmann avec {2,3,5,7}. Les concepts universels qui convergent vers 210 sont ceux qui intègrent toutes les dimensions de l'expérience : la MAIN (l'outil intégrateur), la MÈRE (le lien total), le CHEMIN (l'espace-temps orienté), la PAROLE (la communication complète). 2×3×5×7 = 210 tient sur un byte et demi — encodage minimal d'une expérience complète.",
+  "examples": {
+    "universal_concepts": [
+      "MAIN",
+      "MÈRE",
+      "CHEMIN",
+      "PAROLE/LANGUE",
+      "MAISON"
+    ],
+    "fr": [
+      "main",
+      "mère",
+      "chemin",
+      "parole",
+      "langue",
+      "maison"
+    ],
+    "en": [
+      "hand",
+      "mother",
+      "path/road",
+      "speech/language",
+      "home"
+    ],
+    "sa": [
+      "hasta/pāṇi (main)",
+      "mātṛ (mère)",
+      "mārga/patha (chemin)",
+      "vāc (parole)"
+    ],
+    "zh": [
+      "手 (shǒu) — main",
+      "母 (mǔ) — mère",
+      "路 (lù) — chemin",
+      "语 (yǔ) — langue"
+    ]
+  },
+  "convergences": [
+    "Lévi-Strauss — le mythème complet (toutes les oppositions résolues)",
+    "Lakoff — schéma image complet (ORIGIN-PATH-GOAL + CONTAINER + LINK)",
+    "Wierzbicka NSM — I/YOU (les deux primitifs de la personne = 210 réciproques)",
+    "Chomsky — la proposition minimale complète (sujet + prédicat + temps + aspect)",
+    "Cassirer — le symbole pleinement développé (intuition + concept + relation + direction)"
+  ]
+}

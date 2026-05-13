@@ -1,0 +1,26 @@
+{
+  "id": -35,
+  "name": "ANTICIPATION",
+  "name_en": "ANTICIPATION",
+  "name_sa": "āśā",
+  "type": "crossing",
+  "base": 35,
+  "operator": -1,
+  "factors": [
+    5,
+    7
+  ],
+  "mask": 12,
+  "level": 1,
+  "domain": "Z",
+  "status": "confirmed",
+  "formula": "-(RAPPORT ∧ ORIENTATION) = crossing(RÉFÉRENCE)",
+  "notes": "Le crossing Spencer-Brown de la RÉFÉRENCE. Là où 35 = MÉMOIRE (référence ancrée dans le passé), -35 = ANTICIPATION (référence projetée dans le futur). L'opérateur -1 est l'opérateur de crossing : il traverse la frontière temporelle entre ce qui a eu lieu et ce qui n'a pas encore eu lieu. Husserl : la protention. Tulving : le voyage mental dans le temps vers le futur (episodic foresight).",
+  "crossing_note": "Le signe - n'est pas une négation ordinaire mais un crossing au sens de Spencer-Brown : traversée d'une frontière. -35 ne dit pas 'il n'y a pas de référence' — il dit 'la référence traverse la frontière temporelle vers l'avant'.",
+  "convergences": [
+    "Husserl — protention (la rétention anticipée)",
+    "Spencer-Brown — crossing (traversée de la frontière de distinction)",
+    "Tulving — épisodic foresight (projection vers le futur personnel)",
+    "Suddendorf — mental time travel forward"
+  ]
+}
